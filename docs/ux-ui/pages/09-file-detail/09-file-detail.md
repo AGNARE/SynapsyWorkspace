@@ -2,7 +2,7 @@
 
 *Файл как сущность знаний: превью, индексация, версии, связи.*
 
-![Экран «Детали файла»](09-file-detail.png)
+![Экран «Детали файла»](09-file-detail.png?raw=true)
 
 **Figma:** [09-file-detail](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-8060)
 

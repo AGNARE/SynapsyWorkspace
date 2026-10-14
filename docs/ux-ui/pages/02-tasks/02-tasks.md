@@ -2,7 +2,7 @@
 
 *Рабочий список всех задач пространства: что в работе, у кого и на какой срок.*
 
-![Экран «Задачи — список»](02-tasks.png)
+![Экран «Задачи — список»](02-tasks.png?raw=true)
 
 **Figma:** [02-tasks](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-6462)
 

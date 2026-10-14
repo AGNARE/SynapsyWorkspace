@@ -2,7 +2,7 @@
 
 *Модальное окно. Позволяет завести задачу, не уходя с текущего экрана.*
 
-![Модальное окно «Новая задача»](m01-create-task.svg)
+![Модальное окно «Новая задача»](m01-create-task.svg?raw=true)
 
 **Figma:** [m01-create-task](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=121-10549)
 · **Статус:** первый вариант

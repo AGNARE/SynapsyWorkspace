@@ -2,7 +2,7 @@
 
 *Доска по статусам: где скапливается работа и что стоит.*
 
-![Экран «Kanban»](03-kanban.png)
+![Экран «Kanban»](03-kanban.png?raw=true)
 
 **Figma:** [03-kanban](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-6729)
 

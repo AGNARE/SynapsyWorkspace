@@ -2,7 +2,7 @@
 
 *Карточка задачи целиком: что делать, с чем связано, кто отвечает и что было раньше.*
 
-![Экран «Детали задачи»](04-task-detail.png)
+![Экран «Детали задачи»](04-task-detail.png?raw=true)
 
 **Figma:** [04-task-detail](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-7032)
 

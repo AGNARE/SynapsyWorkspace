@@ -2,7 +2,7 @@
 
 *Первый экран после входа. За пять секунд показывает, что происходит в пространстве и за что браться сегодня.*
 
-![Экран «Обзор»](01-overview.png)
+![Экран «Обзор»](01-overview.png?raw=true)
 
 **Figma:** [01-overview](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-9899)
 
