@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Дизайн-система Synapse Workspace</title>
+<desc>Сводный лист 1440x1024: цветовые токены, типографика, компоненты, сетка и правила. Собран из тех же значений, что используют 18 экранов, 13 модальных окон и 12 состояний.</desc>
+
+<g id="content">
+  <text x="64" y="66" font-size="24" font-weight="700" fill="#172033">Дизайн-система</text>
+  <text x="64" y="94" font-size="13" font-weight="500" fill="#64748B">Цвет, типографика, сетка и компоненты — всё, из чего собраны 18 экранов, 13 модальных окон и 12 состояний</text>
+  <rect x="64" y="150" width="640" height="366" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="184" font-size="16" font-weight="700" fill="#172033">Цвет</text>
+  <text x="88" y="204" font-size="12" font-weight="500" fill="#94A3B8">Токены интерфейса. Белый текст — только на #4F46E5 и темнее</text>
+  <rect x="88" y="234" width="20" height="20" rx="6" fill="#F4F6F8" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="118" y="249" font-size="12" font-weight="500" fill="#172033">Фон приложения</text>
+  <text x="268" y="249" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#F4F6F8</text>
+  <rect x="388" y="234" width="20" height="20" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="418" y="249" font-size="12" font-weight="500" fill="#172033">Поверхность</text>
+  <text x="568" y="249" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#FFFFFF</text>
+  <rect x="88" y="270" width="20" height="20" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="118" y="285" font-size="12" font-weight="500" fill="#172033">Поверхность мягкая</text>
+  <text x="268" y="285" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#F8FAFC</text>
+  <rect x="388" y="270" width="20" height="20" rx="6" fill="#E2E8F0" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="418" y="285" font-size="12" font-weight="500" fill="#172033">Граница</text>
+  <text x="568" y="285" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#E2E8F0</text>
+  <rect x="88" y="306" width="20" height="20" rx="6" fill="#172033" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="118" y="321" font-size="12" font-weight="500" fill="#172033">Текст основной</text>
+  <text x="268" y="321" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#172033</text>
+  <rect x="388" y="306" width="20" height="20" rx="6" fill="#64748B" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="418" y="321" font-size="12" font-weight="500" fill="#172033">Текст вторичный</text>
+  <text x="568" y="321" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#64748B</text>
+  <rect x="88" y="342" width="20" height="20" rx="6" fill="#94A3B8" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="118" y="357" font-size="12" font-weight="500" fill="#172033">Текст приглушённый</text>
+  <text x="268" y="357" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#94A3B8</text>
+  <rect x="388" y="342" width="20" height="20" rx="6" fill="#6366F1" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="418" y="357" font-size="12" font-weight="500" fill="#172033">Бренд-акцент</text>
+  <text x="568" y="357" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#6366F1</text>
+  <rect x="88" y="378" width="20" height="20" rx="6" fill="#4F46E5" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="118" y="393" font-size="12" font-weight="500" fill="#172033">Действие и ссылка</text>
+  <text x="268" y="393" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#4F46E5</text>
+  <rect x="388" y="378" width="20" height="20" rx="6" fill="#EEF2FF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="418" y="393" font-size="12" font-weight="500" fill="#172033">Акцент-фон</text>
+  <text x="568" y="393" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#EEF2FF</text>
+  <rect x="88" y="414" width="20" height="20" rx="6" fill="#15803D" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="118" y="429" font-size="12" font-weight="500" fill="#172033">Успех</text>
+  <text x="268" y="429" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#15803D</text>
+  <rect x="388" y="414" width="20" height="20" rx="6" fill="#B45309" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="418" y="429" font-size="12" font-weight="500" fill="#172033">Предупреждение</text>
+  <text x="568" y="429" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#B45309</text>
+  <rect x="88" y="450" width="20" height="20" rx="6" fill="#B91C1C" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="118" y="465" font-size="12" font-weight="500" fill="#172033">Опасность</text>
+  <text x="268" y="465" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#B91C1C</text>
+  <rect x="388" y="450" width="20" height="20" rx="6" fill="#0369A1" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="418" y="465" font-size="12" font-weight="500" fill="#172033">Информация</text>
+  <text x="568" y="465" font-size="12" font-weight="600" fill="#94A3B8" font-family="monospace">#0369A1</text>
+  <rect x="736" y="150" width="640" height="366" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="760" y="184" font-size="16" font-weight="700" fill="#172033">Типографика</text>
+  <text x="760" y="204" font-size="12" font-weight="500" fill="#94A3B8">Шрифт Inter. Минимальный кегль — 11 px</text>
+  <text x="760" y="242" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">24 / 700</text>
+  <text x="866" y="242" font-size="20" font-weight="700" fill="#172033">Заголовок страницы</text>
+  <text x="1206" y="242" font-size="20" font-weight="700" fill="#64748B">Аа Бб Вв</text>
+  <text x="760" y="276" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">16 / 700</text>
+  <text x="866" y="276" font-size="16" font-weight="700" fill="#172033">Заголовок секции</text>
+  <text x="1206" y="276" font-size="16" font-weight="700" fill="#64748B">Аа Бб Вв</text>
+  <text x="760" y="310" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">15 / 700</text>
+  <text x="866" y="310" font-size="15" font-weight="700" fill="#172033">Заголовок карточки</text>
+  <text x="1206" y="310" font-size="15" font-weight="700" fill="#64748B">Аа Бб Вв</text>
+  <text x="760" y="344" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">13 / 500</text>
+  <text x="866" y="344" font-size="13" font-weight="500" fill="#172033">Основной текст</text>
+  <text x="1206" y="344" font-size="13" font-weight="500" fill="#64748B">Аа Бб Вв</text>
+  <text x="760" y="378" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">12 / 500</text>
+  <text x="866" y="378" font-size="12" font-weight="500" fill="#172033">Вторичный текст</text>
+  <text x="1206" y="378" font-size="12" font-weight="500" fill="#64748B">Аа Бб Вв</text>
+  <text x="760" y="412" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">11 / 500</text>
+  <text x="866" y="412" font-size="11" font-weight="500" fill="#172033">Мета и подписи</text>
+  <text x="1206" y="412" font-size="11" font-weight="500" fill="#64748B">Аа Бб Вв</text>
+  <text x="760" y="446" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">11 / 700</text>
+  <text x="866" y="446" font-size="11" font-weight="700" fill="#172033">Заголовок раздела</text>
+  <text x="1206" y="446" font-size="11" font-weight="700" fill="#64748B">Аа Бб Вв</text>
+  <text x="760" y="480" font-size="11" font-weight="500" fill="#94A3B8" font-family="monospace">28 / 700</text>
+  <text x="866" y="480" font-size="20" font-weight="700" fill="#172033">Число метрики</text>
+  <text x="1206" y="480" font-size="20" font-weight="700" fill="#64748B">Аа Бб Вв</text>
+  <rect x="64" y="540" width="640" height="420" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="574" font-size="16" font-weight="700" fill="#172033">Компоненты</text>
+  <text x="88" y="594" font-size="12" font-weight="500" fill="#94A3B8">Основное состояние каждого элемента</text>
+  <text x="88" y="624" font-size="11" font-weight="700" fill="#94A3B8">КНОПКИ</text>
+  <rect x="88" y="636" width="120" height="36" rx="8" fill="#4F46E5"/>
+  <text x="148" y="659" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Основная</text>
+  <rect x="218" y="636" width="120" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="278" y="659" font-size="13" font-weight="600" fill="#172033" text-anchor="middle">Вторичная</text>
+  <rect x="348" y="636" width="36" height="36" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <path d="M359 654h14M366 647v14" fill="none" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="396" y="636" width="120" height="36" rx="8" fill="#B91C1C"/>
+  <text x="456" y="659" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Опасная</text>
+  <rect x="528" y="636" width="140" height="36" rx="8" fill="#F1F5F9"/>
+  <text x="598" y="659" font-size="13" font-weight="600" fill="#94A3B8" text-anchor="middle">Отключённая</text>
+  <text x="88" y="704" font-size="11" font-weight="700" fill="#94A3B8">ПОЛЯ И ЧИПЫ</text>
+  <rect x="88" y="716" width="200" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="104" y="739" font-size="13" font-weight="500" fill="#94A3B8">Поле ввода</text>
+  <rect x="300" y="716" width="200" height="36" rx="8" fill="#FFFFFF" stroke="#6366F1" stroke-width="2"/>
+  <text x="316" y="739" font-size="13" font-weight="500" fill="#172033">Поле в фокусе</text>
+  <rect x="512" y="716" width="74" height="32" rx="8" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="549" y="737" font-size="12" font-weight="600" fill="#4F46E5" text-anchor="middle">Чип</text>
+  <rect x="594" y="716" width="74" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="631" y="737" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">Чип</text>
+  <text x="88" y="784" font-size="11" font-weight="700" fill="#94A3B8">БЕЙДЖИ СТАТУСОВ</text>
+  <rect x="88" y="796" width="108" height="22" rx="11" fill="#F1F5F9"/>
+  <text x="142" y="811" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">К выполнению</text>
+  <rect x="204" y="796" width="80" height="22" rx="11" fill="#FFF7ED"/>
+  <text x="244" y="811" font-size="11" font-weight="600" fill="#B45309" text-anchor="middle">В работе</text>
+  <rect x="292" y="796" width="101" height="22" rx="11" fill="#EEF2FF"/>
+  <text x="342" y="811" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">На проверке</text>
+  <rect x="401" y="796" width="115" height="22" rx="11" fill="#FEF2F2"/>
+  <text x="458" y="811" font-size="11" font-weight="600" fill="#B91C1C" text-anchor="middle">Заблокировано</text>
+  <rect x="524" y="796" width="66" height="22" rx="11" fill="#ECFDF3"/>
+  <text x="557" y="811" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Готово</text>
+  <text x="88" y="860" font-size="11" font-weight="700" fill="#94A3B8">КАРТОЧКА, ФЛАЖОК, ПЕРЕКЛЮЧАТЕЛЬ, АВАТАР</text>
+  <rect x="88" y="872" width="200" height="72" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="108" y="898" font-size="13" font-weight="700" fill="#172033">Карточка</text>
+  <text x="108" y="918" font-size="11" font-weight="500" fill="#94A3B8">радиус 12, отступы 20</text>
+  <rect x="308" y="882" width="18" height="18" rx="4" fill="#4F46E5"/>
+  <path d="M312 891l3 3 6-7" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="334" y="897" font-size="13" font-weight="500" fill="#172033">Флажок</text>
+  <rect x="308" y="914" width="36" height="20" rx="10" fill="#4F46E5"/>
+  <circle cx="334" cy="924" r="8" fill="#FFFFFF"/>
+  <text x="356" y="929" font-size="13" font-weight="500" fill="#172033">Переключатель</text>
+  <circle cx="534" cy="912" r="16" fill="#6366F1"/>
+  <text x="534" y="917" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+  <text x="560" y="917" font-size="13" font-weight="500" fill="#172033">Аватар</text>
+  <rect x="736" y="540" width="640" height="420" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="760" y="574" font-size="16" font-weight="700" fill="#172033">Сетка и правила</text>
+  <text x="760" y="594" font-size="12" font-weight="500" fill="#94A3B8">Каркас одинаков для всех экранов</text>
+  <text x="760" y="630" font-size="13" font-weight="600" fill="#172033">Холст</text>
+  <text x="976" y="630" font-size="13" font-weight="500" fill="#64748B">1440 × 1024</text>
+  <rect x="760" y="642" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="662" font-size="13" font-weight="600" fill="#172033">Сайдбар</text>
+  <text x="976" y="662" font-size="13" font-weight="500" fill="#64748B">x 0..240</text>
+  <rect x="760" y="674" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="694" font-size="13" font-weight="600" fill="#172033">Верхняя панель</text>
+  <text x="976" y="694" font-size="13" font-weight="500" fill="#64748B">x 240..1440, y 0..64</text>
+  <rect x="760" y="706" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="726" font-size="13" font-weight="600" fill="#172033">Контент</text>
+  <text x="976" y="726" font-size="13" font-weight="500" fill="#64748B">x 240..1440, y 64..1024, отступы 24</text>
+  <rect x="760" y="738" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="758" font-size="13" font-weight="600" fill="#172033">Рабочая ширина</text>
+  <text x="976" y="758" font-size="13" font-weight="500" fill="#64748B">1152</text>
+  <rect x="760" y="770" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="790" font-size="13" font-weight="600" fill="#172033">Базовая сетка</text>
+  <text x="976" y="790" font-size="13" font-weight="500" fill="#64748B">4 px</text>
+  <rect x="760" y="802" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="822" font-size="13" font-weight="600" fill="#172033">Шаги отступов</text>
+  <text x="976" y="822" font-size="13" font-weight="500" fill="#64748B">4 · 8 · 12 · 16 · 20 · 24 · 32 · 40</text>
+  <rect x="760" y="834" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="854" font-size="13" font-weight="600" fill="#172033">Радиусы</text>
+  <text x="976" y="854" font-size="13" font-weight="500" fill="#64748B">8 — контролы · 12 — карточки · 999 — пилюли</text>
+  <rect x="760" y="866" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="886" font-size="13" font-weight="600" fill="#172033">Тени</text>
+  <text x="976" y="886" font-size="13" font-weight="500" fill="#64748B">нет, кроме всплывающих панелей</text>
+  <rect x="760" y="898" width="592" height="1" fill="#F1F5F9"/>
+  <text x="760" y="918" font-size="13" font-weight="600" fill="#172033">Запрещено</text>
+  <text x="976" y="918" font-size="13" font-weight="500" fill="#64748B">растры, фильтры, маски, CSS-классы, эмодзи</text>
+</g>
+</svg>

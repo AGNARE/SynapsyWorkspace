@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Карта пользовательских потоков</title>
+<desc>Лист 1440x1024: путь от входа до знаний, развилки по состояниям, ролям и отключённым модулям.</desc>
+
+<g id="content">
+  <text x="64" y="66" font-size="24" font-weight="700" fill="#172033">Карта пользовательских потоков</text>
+  <text x="64" y="94" font-size="13" font-weight="500" fill="#64748B">Как человек проходит продукт: от входа до знаний, с развилками по состояниям и ролям</text>
+  <text x="64" y="150" font-size="11" font-weight="700" fill="#94A3B8">НАЧАЛО</text>
+  <rect x="64" y="170" width="180" height="72" rx="10" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="80" y="200" font-size="13" font-weight="600" fill="#4F46E5">Вход</text>
+  <text x="80" y="220" font-size="11" font-weight="500" fill="#64748B">почта и пароль</text>
+  <path d="M244 206L300 206" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M293 202L300 206L293 210" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="170" width="200" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="316" y="200" font-size="13" font-weight="600" fill="#172033">Выбор пространства</text>
+  <text x="316" y="220" font-size="11" font-weight="500" fill="#64748B">у человека может быть несколько</text>
+  <path d="M500 206L556 206" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M549 202L556 206L549 210" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="556" y="170" width="180" height="72" rx="10" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="572" y="200" font-size="13" font-weight="600" fill="#4F46E5">Обзор</text>
+  <text x="572" y="220" font-size="11" font-weight="500" fill="#64748B">точка входа в работу</text>
+  <text x="64" y="300" font-size="11" font-weight="700" fill="#94A3B8">ОСНОВНАЯ РАБОТА</text>
+  <rect x="64" y="320" width="180" height="72" rx="10" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="80" y="350" font-size="13" font-weight="600" fill="#4F46E5">Kanban</text>
+  <text x="80" y="370" font-size="11" font-weight="500" fill="#64748B">переключатель List / Kanban</text>
+  <path d="M154 242L154 320" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M150 313L154 320L158 313" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M244 356L300 356" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M293 352L300 356L293 360" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="320" width="200" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="316" y="350" font-size="13" font-weight="600" fill="#172033">Детали задачи</text>
+  <text x="316" y="370" font-size="11" font-weight="500" fill="#64748B">описание, связи, файлы, Git</text>
+  <path d="M400 392L400 448" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M396 441L400 448L404 441" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="448" width="200" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="316" y="478" font-size="13" font-weight="600" fill="#172033">Связи в графе</text>
+  <text x="316" y="498" font-size="11" font-weight="500" fill="#64748B">задача ↔ статья ↔ файл</text>
+  <path d="M736 206L736 320" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M732 313L736 320L740 313" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="646" y="320" width="180" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="662" y="350" font-size="13" font-weight="600" fill="#172033">База знаний</text>
+  <text x="662" y="370" font-size="11" font-weight="500" fill="#64748B">дерево и статьи</text>
+  <path d="M736 392L736 448" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M732 441L736 448L740 441" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="646" y="448" width="180" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="662" y="478" font-size="13" font-weight="600" fill="#172033">Статья</text>
+  <text x="662" y="498" font-size="11" font-weight="500" fill="#64748B">версии и связи</text>
+  <rect x="856" y="320" width="180" height="72" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="872" y="350" font-size="13" font-weight="600" fill="#172033">Файлы</text>
+  <text x="872" y="370" font-size="11" font-weight="500" fill="#64748B">загрузка и индексация</text>
+  <path d="M826 356L856 356" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M849 352L856 356L849 360" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1036 356L1092 356" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1085 352L1092 356L1085 360" fill="none" stroke="#CBD5E1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1092" y="320" width="200" height="72" rx="10" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="1108" y="350" font-size="13" font-weight="600" fill="#4F46E5">AI-ассистент</text>
+  <text x="1108" y="370" font-size="11" font-weight="500" fill="#64748B">ответ по пространству</text>
+  <text x="64" y="580" font-size="11" font-weight="700" fill="#94A3B8">СОСТОЯНИЯ, КОТОРЫЕ ВСТРЕЧАЮТСЯ НА ЛЮБОМ ШАГЕ</text>
+  <rect x="64" y="600" width="312" height="72" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6 5"/>
+  <text x="80" y="630" font-size="13" font-weight="600" fill="#64748B">Пусто</text>
+  <text x="80" y="650" font-size="11" font-weight="500" fill="#64748B">нет данных — объясняем, как получить</text>
+  <rect x="400" y="600" width="312" height="72" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6 5"/>
+  <text x="416" y="630" font-size="13" font-weight="600" fill="#64748B">Загрузка</text>
+  <text x="416" y="650" font-size="11" font-weight="500" fill="#64748B">скелетоны держат сетку</text>
+  <rect x="736" y="600" width="312" height="72" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6 5"/>
+  <text x="752" y="630" font-size="13" font-weight="600" fill="#64748B">Ошибка</text>
+  <text x="752" y="650" font-size="11" font-weight="500" fill="#64748B">причина и кнопка «Повторить»</text>
+  <rect x="1072" y="600" width="312" height="72" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6 5"/>
+  <text x="1088" y="630" font-size="13" font-weight="600" fill="#64748B">Нет прав</text>
+  <text x="1088" y="650" font-size="11" font-weight="500" fill="#64748B">действие погашено с пояснением</text>
+  <text x="64" y="730" font-size="11" font-weight="700" fill="#94A3B8">ЧТО МЕНЯЕТСЯ ОТ РОЛИ И МОДУЛЕЙ</text>
+  <rect x="64" y="750" width="312" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="80" y="780" font-size="13" font-weight="600" fill="#172033">Роль</text>
+  <text x="80" y="800" font-size="11" font-weight="500" fill="#64748B">читатель видит те же данные, но действия погашены</text>
+  <rect x="400" y="750" width="312" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="416" y="780" font-size="13" font-weight="600" fill="#172033">Отключённый модуль</text>
+  <text x="416" y="800" font-size="11" font-weight="500" fill="#64748B">раздел скрыт из навигации, данные не удаляются</text>
+  <rect x="736" y="750" width="312" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="752" y="780" font-size="13" font-weight="600" fill="#172033">Зависимости</text>
+  <text x="752" y="800" font-size="11" font-weight="500" fill="#64748B">Gantt и Git — от задач, OCR — от файлов</text>
+  <rect x="1072" y="750" width="304" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="1088" y="780" font-size="13" font-weight="600" fill="#172033">Ассистент</text>
+  <text x="1088" y="800" font-size="11" font-weight="500" fill="#64748B">работает, пока есть хотя бы один источник</text>
+  <rect x="64" y="878" width="1312" height="96" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="88" y="910" font-size="15" font-weight="700" fill="#172033">Ключевой принцип</text>
+  <text x="88" y="936" font-size="13" font-weight="500" fill="#64748B">Человек всегда может вернуться: из любой связи — в сущность, из ошибки — повторить, из архива — восстановить.</text>
+  <text x="88" y="958" font-size="13" font-weight="500" fill="#64748B">Разделы, которые отключил владелец, не исчезают из настроек — иначе их не включить обратно.</text>
+</g>
+</svg>
