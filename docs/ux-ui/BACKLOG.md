@@ -69,7 +69,7 @@
   вход в задачи один. Подробности в [NAVIGATION.md](NAVIGATION.md)
 - расхождения с ТЗ по составу модулей — **разобраны**: см. [NAVIGATION.md](NAVIGATION.md)
 - экран «Вход» — **нарисован** (`pages/00-login`)
-- после входа нужен экран выбора рабочего пространства — пока не рисовали
+- экран выбора рабочего пространства — **нарисован** (`pages/00-workspaces`)
 - листы `18-design-system` и `19-ux-flow-map` — **нарисованы**
   (`synapse-figma-sheets/`); `20-ux-qa-states` не нужен, его перекрывает
   набор [`synapse-figma-states/`](../../synapse-figma-states)
