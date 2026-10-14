@@ -53,6 +53,9 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
 
 (async () => {
   const created = [];
+  // прогресс, чтобы было видно, что плагин жив
+  const done = (name, count) => { created.push([name, count]); figma.notify(name + " готов", { timeout: 900 }); };
+  figma.notify("Собираю компоненты…", { timeout: 1500 });
 
   for (const s of FONTS) await figma.loadFontAsync({ family: "Inter", style: s });
 
@@ -93,7 +96,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   }
   const buttonSet = figma.combineAsVariants(buttons, page);
   buttonSet.name = "Button";
-  created.push(["Button", buttons.length]);
+  done("Button", buttons.length);
 
   // ---------- 2. Поля ввода ----------
   const inputStates = {
@@ -115,7 +118,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   }
   const inputSet = figma.combineAsVariants(inputs, page);
   inputSet.name = "Input";
-  created.push(["Input", inputs.length]);
+  done("Input", inputs.length);
 
   // ---------- 3. Статусы ----------
   const statuses = [
@@ -133,7 +136,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   });
   const badgeSet = figma.combineAsVariants(badges, page);
   badgeSet.name = "Badge / Status";
-  created.push(["Badge / Status", badges.length]);
+  done("Badge / Status", badges.length);
 
   const priorities = [
     ["Высокий", TOKENS.danger, TOKENS.dangerBg],
@@ -147,7 +150,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   });
   const prioSet = figma.combineAsVariants(prio, page);
   prioSet.name = "Badge / Priority";
-  created.push(["Badge / Priority", prio.length]);
+  done("Badge / Priority", prio.length);
 
   // ---------- 4. Чипы ----------
   const chips = [["Default", TOKENS.surface, TOKENS.border, TOKENS.neutral], ["Active", TOKENS.accentBg, TOKENS.accentBorder, TOKENS.action]]
@@ -158,7 +161,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
     });
   const chipSet = figma.combineAsVariants(chips, page);
   chipSet.name = "Chip";
-  created.push(["Chip", chips.length]);
+  done("Chip", chips.length);
 
   // ---------- 5. Флажок и переключатель ----------
   const checks = [["Off", false], ["On", true]].map(([state, on]) => {
@@ -168,7 +171,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   });
   const checkSet = figma.combineAsVariants(checks, page);
   checkSet.name = "Checkbox";
-  created.push(["Checkbox", checks.length]);
+  done("Checkbox", checks.length);
 
   const toggles = [["Off", false], ["On", true]].map(([state, on]) => {
     const c = comp(`State=${state}`, 36, 20, on ? TOKENS.action : TOKENS.border, null, 1, 10);
@@ -183,7 +186,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   });
   const toggleSet = figma.combineAsVariants(toggles, page);
   toggleSet.name = "Toggle";
-  created.push(["Toggle", toggles.length]);
+  done("Toggle", toggles.length);
 
   // ---------- 6. Аватар ----------
   const avatars = [16, 24, 32, 40].map(size => {
@@ -193,7 +196,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   });
   const avatarSet = figma.combineAsVariants(avatars, page);
   avatarSet.name = "Avatar";
-  created.push(["Avatar", avatars.length]);
+  done("Avatar", avatars.length);
 
   // ---------- 7. Карточки ----------
   const cards = [];
@@ -221,7 +224,7 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   }
   const cardSet = figma.combineAsVariants(cards, page);
   cardSet.name = "Card";
-  created.push(["Card", cards.length]);
+  done("Card", cards.length);
 
   // ---------- 8. Строка списка ----------
   const rows = [["Default", TOKENS.surface], ["Hover", TOKENS.soft], ["Selected", TOKENS.accentBg]].map(([state, bg]) => {
@@ -236,18 +239,17 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
   });
   const rowSet = figma.combineAsVariants(rows, page);
   rowSet.name = "Row / Task";
-  created.push(["Row / Task", rows.length]);
+  done("Row / Task", rows.length);
 
-  // ---------- раскладка наборов на странице ----------
-  let x = 0, y = 0, rowH = 0;
+  // ---------- раскладка: простой вертикальный столбец, без наложений ----------
   const sets = [buttonSet, inputSet, badgeSet, prioSet, chipSet, checkSet, toggleSet, avatarSet, cardSet, rowSet];
+  let y = 0;
   for (const s of sets) {
-    if (x + s.width > 2200) { x = 0; y += rowH + 140; rowH = 0; }
-    s.x = x; s.y = y + 40;
-    const l = label(s.name, x, y);
+    s.x = 0;
+    s.y = y + 60;
+    const l = label(s.name, 0, y);
     page.appendChild(l);
-    x += s.width + 120;
-    rowH = Math.max(rowH, s.height);
+    y = s.y + s.height + 160;
   }
 
   // ---------- переменные цвета (если API доступен) ----------
@@ -274,4 +276,8 @@ const FONTS = ["Regular", "Medium", "Semi Bold", "Bold"];
 
   const lines = created.map(([name, count]) => `${name} — ${count}`).join(", ");
   figma.closePlugin(`Готово. Компонентов: ${created.reduce((s, c) => s + c[1], 0)}. Наборы: ${lines}. Переменные: ${varsInfo}`);
-})();
+})().catch(err => {
+  // если что-то упало — показываем понятный текст, а не молчаливое зависание
+  figma.notify("Ошибка сборки: " + err.message, { error: true, timeout: 8000 });
+  figma.closePlugin("Остановлено: " + err.message);
+});
