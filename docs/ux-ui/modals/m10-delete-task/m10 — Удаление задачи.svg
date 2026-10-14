@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Удаление задачи — модальное окно</title>
+<desc>Окно sm 480, опасное действие: последствия удаления, флажок удаления вложений, опасная кнопка. Спецификация: MODALS.md, m10.</desc>
+
+  <rect x="0" y="0" width="1440" height="1024" id="backdrop" fill="#172033" fill-opacity="0.45"/>
+<g id="dialog">
+  <rect id="dialog-surface" x="480" y="142" width="480" height="372" rx="14" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="504" y="184" font-size="18" font-weight="700" fill="#172033">Удалить TASK-142?</text>
+  <rect x="904" y="164" width="32" height="32" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <path d="M915 175l10 10M445 33l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="480" y="214" width="480" height="1" fill="#F1F5F9"/>
+  <text x="504" y="246" font-size="13" font-weight="500" fill="#64748B">Реализовать JWT-аутентификацию будет удалена вместе с историей изменений</text>
+  <text x="504" y="264" font-size="13" font-weight="500" fill="#64748B">изменений</text>
+  <circle cx="508" cy="296" r="3" fill="#94A3B8"/>
+  <text x="524" y="300" font-size="13" font-weight="500" fill="#172033">6 связей в графе знаний исчезнут</text>
+  <circle cx="508" cy="324" r="3" fill="#94A3B8"/>
+  <text x="524" y="328" font-size="13" font-weight="500" fill="#172033">ссылки [[#TASK-142]] в статьях станут неактивными</text>
+  <circle cx="508" cy="352" r="3" fill="#94A3B8"/>
+  <text x="524" y="356" font-size="13" font-weight="500" fill="#172033">вложения останутся в файловом хранилище</text>
+  <rect x="504" y="394" width="18" height="18" rx="4" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="530" y="408" font-size="13" font-weight="500" fill="#172033">Удалить также вложения</text>
+  <rect x="480" y="438" width="480" height="1" fill="#E2E8F0"/>
+  <rect x="704" y="454" width="80" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="744" y="477" font-size="13" font-weight="600" fill="#172033" text-anchor="middle">Отмена</text>
+  <rect x="796" y="454" width="140" height="36" rx="8" fill="#B91C1C"/>
+  <text x="866" y="477" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Удалить задачу</text>
+</g>
+</svg>

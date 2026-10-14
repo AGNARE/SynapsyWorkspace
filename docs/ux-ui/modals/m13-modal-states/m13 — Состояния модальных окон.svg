@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Состояния модальных окон</title>
+<desc>Служебный лист 1440x1024: девять состояний диалога создания задачи для проверки до сборки компонентов. Спецификация: MODALS.md, m13.</desc>
+
+<g id="content">
+  <rect x="0" y="0" width="1440" height="1024" fill="#F4F6F8"/>
+  <text x="64" y="66" font-size="24" font-weight="700" fill="#172033">Состояния модальных окон</text>
+  <text x="64" y="94" font-size="13" font-weight="500" fill="#64748B">Проверка до сборки компонентов в Figma</text>
+  <rect x="64" y="140" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="104" y="172" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="104" y="172" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="118" y="194" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M399 184l10 10M409 184l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="118" y="222" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#6366F1" stroke-width="2"/>
+  <text x="128" y="241" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="118" y="262" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="128" y="281" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="328" y="298" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="328" y="298" width="0" height="0" fill="#F1F5F9"/>
+  <text x="84" y="364" font-size="13" font-weight="700" fill="#172033">Обычное</text>
+  <text x="84" y="386" font-size="12" font-weight="500" fill="#64748B">поля пустые, кнопка активна</text>
+  <rect x="496" y="140" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="536" y="172" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="536" y="172" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="550" y="194" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M831 184l10 10M841 184l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="550" y="222" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="560" y="241" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="550" y="262" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="560" y="281" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="760" y="298" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="760" y="298" width="0" height="0" fill="#F1F5F9"/>
+  <rect x="550" y="298" width="14" height="14" rx="4" fill="#4F46E5"/>
+  <text x="516" y="364" font-size="13" font-weight="700" fill="#172033">Загрузка</text>
+  <text x="516" y="386" font-size="12" font-weight="500" fill="#64748B">на кнопке индикатор</text>
+  <rect x="928" y="140" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="968" y="172" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="968" y="172" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="982" y="194" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M1263 184l10 10M1273 184l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="982" y="222" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="992" y="241" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="982" y="262" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="992" y="281" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="1192" y="298" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="1192" y="298" width="0" height="0" fill="#F1F5F9"/>
+  <rect x="976" y="212" width="304" height="24" rx="6" fill="#FEF2F2"/>
+  <text x="948" y="364" font-size="13" font-weight="700" fill="#172033">Ошибка сохранения</text>
+  <text x="948" y="386" font-size="12" font-weight="500" fill="#64748B">предупреждение в теле</text>
+  <rect x="64" y="442" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="104" y="474" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="104" y="474" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="118" y="496" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M399 486l10 10M409 486l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="118" y="524" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="128" y="543" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="118" y="564" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="128" y="583" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="328" y="600" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="328" y="600" width="0" height="0" fill="#F1F5F9"/>
+  <text x="84" y="666" font-size="13" font-weight="700" fill="#172033">Пустые связи</text>
+  <text x="84" y="688" font-size="12" font-weight="500" fill="#64748B">нет привязанных сущностей</text>
+  <rect x="496" y="442" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="536" y="474" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="536" y="474" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="550" y="496" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M831 486l10 10M841 486l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="550" y="524" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="560" y="543" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="550" y="564" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="560" y="583" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="760" y="600" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="760" y="600" width="0" height="0" fill="#F1F5F9"/>
+  <text x="760" y="612" font-size="10" font-weight="500" fill="#94A3B8" text-anchor="end">недоступно</text>
+  <text x="516" y="666" font-size="13" font-weight="700" fill="#172033">Нет прав</text>
+  <text x="516" y="688" font-size="12" font-weight="500" fill="#64748B">поля отключены</text>
+  <rect x="928" y="442" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="968" y="474" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="968" y="474" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="982" y="496" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M1263 486l10 10M1273 486l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="982" y="524" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="992" y="543" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="982" y="564" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="992" y="583" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="1192" y="600" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="1192" y="600" width="0" height="0" fill="#F1F5F9"/>
+  <rect x="976" y="600" width="304" height="20" rx="6" fill="#FEF2F2"/>
+  <text x="948" y="666" font-size="13" font-weight="700" fill="#172033">Квота превышена</text>
+  <text x="948" y="688" font-size="12" font-weight="500" fill="#64748B">загрузка запрещена</text>
+  <rect x="64" y="744" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="104" y="776" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="104" y="776" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="118" y="798" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M399 788l10 10M409 788l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="118" y="826" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="128" y="845" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="118" y="866" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="128" y="885" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="328" y="902" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="328" y="902" width="0" height="0" fill="#F1F5F9"/>
+  <text x="84" y="968" font-size="13" font-weight="700" fill="#172033">Конфликт версий</text>
+  <text x="84" y="990" font-size="12" font-weight="500" fill="#64748B">кто-то изменил раньше</text>
+  <rect x="496" y="744" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="536" y="776" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="536" y="776" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="550" y="798" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M831 788l10 10M841 788l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="550" y="826" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="560" y="845" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="550" y="866" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="560" y="885" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="760" y="902" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="760" y="902" width="0" height="0" fill="#F1F5F9"/>
+  <text x="516" y="968" font-size="13" font-weight="700" fill="#172033">Успех</text>
+  <text x="516" y="990" font-size="12" font-weight="500" fill="#64748B">задача создана</text>
+  <rect x="928" y="744" width="400" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="968" y="776" width="320" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="968" y="776" width="320" height="34" rx="10" fill="#F8FAFC"/>
+  <text x="982" y="798" font-size="12" font-weight="700" fill="#172033">Новая задача</text>
+  <path d="M1263 788l10 10M1273 788l-10 10" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="982" y="826" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="992" y="845" font-size="11" font-weight="500" fill="#94A3B8">Название</text>
+  <rect x="982" y="866" width="292" height="30" rx="7" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="992" y="885" font-size="11" font-weight="500" fill="#94A3B8">Описание</text>
+  <rect x="1192" y="902" width="82" height="16" rx="5" fill="#F1F5F9"/>
+  <rect x="1192" y="902" width="0" height="0" fill="#F1F5F9"/>
+  <text x="1192" y="914" font-size="10" font-weight="500" fill="#94A3B8" text-anchor="end">недоступно</text>
+  <text x="948" y="968" font-size="13" font-weight="700" fill="#172033">Нет прав на действие</text>
+  <text x="948" y="990" font-size="12" font-weight="500" fill="#64748B">кнопка недоступна</text>
+</g>
+</svg>
