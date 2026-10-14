@@ -11,7 +11,7 @@
 docs/ux-ui/
 ├── pages/         19 экранов: вход, выбор пространства и 17 разделов
 ├── modals/        13 модальных окон
-├── brand/         знак, брендборд, пример знака в сайдбаре
+├── brand/         знак, брендборд и описание бренда
 ├── TASKS.md       что сделано и что осталось
 └── README.md      что внутри, с чего начать и журнал работы
 
@@ -29,7 +29,8 @@ synapse-figma-plugin/    плагин: собирает компоненты в 
 1. [docs/ux-ui/README.md](docs/ux-ui/README.md) — что внутри, с чего начать и журнал работы.
 2. [pages/01-overview/01-overview.md](docs/ux-ui/pages/01-overview/01-overview.md) — пример описания экрана.
 3. [modals/m05-archive-workspace/m05-archive-workspace.md](docs/ux-ui/modals/m05-archive-workspace/m05-archive-workspace.md) — пример описания окна.
-4. [synapse-figma-plugin](synapse-figma-plugin/README.md) — как собрать компоненты в Figma.
+4. [brand/README.md](docs/ux-ui/brand/README.md) — знак, цвета и правила использования.
+5. [synapse-figma-plugin](synapse-figma-plugin/README.md) — как собрать компоненты в Figma.
 
 ## Архивы
 
