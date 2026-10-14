@@ -1,0 +1,7 @@
+{
+  "name": "Synapse — сборка компонентов",
+  "id": "synapse-components-builder",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"]
+}
