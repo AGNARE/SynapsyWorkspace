@@ -203,12 +203,12 @@
 <rect x="778" y="400" width="12" height="12" rx="2" fill="none" stroke="#64748B" stroke-width="1.3"/>
 </g>
 
-<text x="818" y="414" font-size="12" font-weight="500" fill="#64748B">Значение скрыто, копирование доступно владельцу</text>
+<text x="286" y="446" font-size="11" font-weight="500" fill="#94A3B8">Значение скрыто, копирование доступно владельцу</text>
 
-<text x="884" y="382" font-size="11" font-weight="700" fill="#94A3B8">СТАТУС ПОДПИСКИ</text>
-<rect x="884" y="390" width="118" height="22" rx="11" fill="#ECFDF3"/>
-<text x="943" y="405" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Активна</text>
-<text x="884" y="430" font-size="12" font-weight="500" fill="#64748B">Последнее событие — 2 минуты назад</text>
+<text x="900" y="382" font-size="11" font-weight="700" fill="#94A3B8">СТАТУС ПОДПИСКИ</text>
+<rect x="900" y="390" width="118" height="22" rx="11" fill="#ECFDF3"/>
+<text x="959" y="405" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Активна</text>
+<text x="900" y="430" font-size="12" font-weight="500" fill="#64748B">Последнее событие — 2 минуты назад</text>
 </g>
 
 <g id="card-commits">
