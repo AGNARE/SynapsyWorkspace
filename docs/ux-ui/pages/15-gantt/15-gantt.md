@@ -2,7 +2,7 @@
 
 *Сроки, зависимости и прогресс задач на одной шкале.*
 
-![Экран «Gantt»](15-gantt.png?raw=true)
+![Экран «Gantt»](15-gantt.png)
 
 **Figma:** [15-gantt](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-9300)
 

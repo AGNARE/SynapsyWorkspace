@@ -2,7 +2,7 @@
 
 *Состояние только для чтения: что недоступно и как вернуться.*
 
-![Экран «Архив пространства»](17-archive.png?raw=true)
+![Экран «Архив пространства»](17-archive.png)
 
 **Figma:** [17-archive](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-9740)
 

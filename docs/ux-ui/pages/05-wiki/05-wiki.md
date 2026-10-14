@@ -2,7 +2,7 @@
 
 *База знаний пространства: дерево, статья и контекст рядом.*
 
-![Экран «Wiki»](05-wiki.png?raw=true)
+![Экран «Wiki»](05-wiki.png)
 
 **Figma:** [05-wiki](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-7230)
 

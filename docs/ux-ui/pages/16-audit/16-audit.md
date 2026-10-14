@@ -2,7 +2,7 @@
 
 *Кто что сделал в пространстве — по событиям и времени.*
 
-![Экран «Журнал аудита»](16-audit.png?raw=true)
+![Экран «Журнал аудита»](16-audit.png)
 
 **Figma:** [16-audit](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-9518)
 

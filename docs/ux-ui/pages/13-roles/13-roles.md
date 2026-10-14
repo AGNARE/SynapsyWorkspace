@@ -2,7 +2,7 @@
 
 *RBAC: системные и пользовательские роли, атомарные права.*
 
-![Экран «Роли и права»](13-roles.png?raw=true)
+![Экран «Роли и права»](13-roles.png)
 
 **Figma:** [13-roles](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-8894)
 

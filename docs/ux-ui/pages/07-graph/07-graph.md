@@ -2,7 +2,7 @@
 
 *Связи между задачами, статьями, файлами и коммитами.*
 
-![Экран «Граф знаний»](07-graph.png?raw=true)
+![Экран «Граф знаний»](07-graph.png)
 
 **Figma:** [07-graph](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-7633)
 

@@ -2,7 +2,7 @@
 
 *Связь репозитория с задачами и автоматизация статусов.*
 
-![Экран «Git»](14-git.png?raw=true)
+![Экран «Git»](14-git.png)
 
 **Figma:** [14-git](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-9099)
 
