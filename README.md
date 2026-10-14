@@ -13,7 +13,7 @@ docs/ux-ui/
 ├── modals/        13 модальных окон
 ├── brand/         знак, брендборд, пример знака в сайдбаре
 ├── TASKS.md       что сделано и что осталось
-└── WORKLOG.md     журнал работы по этапам
+└── README.md      что внутри, с чего начать и журнал работы
 
 synapse-figma-modals/    те же 13 окон одним набором — перетаскивать в Figma
 synapse-figma-states/    12 состояний: пустые, загрузка, ошибки, роли, модули
@@ -26,7 +26,7 @@ synapse-figma-plugin/    плагин: собирает компоненты в 
 
 ## С чего начать
 
-1. [WORKLOG.md](docs/ux-ui/WORKLOG.md) — журнал работы по этапам.
+1. [docs/ux-ui/README.md](docs/ux-ui/README.md) — что внутри, с чего начать и журнал работы.
 2. [pages/01-overview/01-overview.md](docs/ux-ui/pages/01-overview/01-overview.md) — пример описания экрана.
 3. [modals/m05-archive-workspace/m05-archive-workspace.md](docs/ux-ui/modals/m05-archive-workspace/m05-archive-workspace.md) — пример описания окна.
 4. [synapse-figma-plugin](synapse-figma-plugin/README.md) — как собрать компоненты в Figma.
