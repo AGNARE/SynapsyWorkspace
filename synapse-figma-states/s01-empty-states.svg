@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Пустые состояния</title>
+<desc>Лист 1440x1024: пять пустых состояний продукта и перечень мест, где они ещё нужны.</desc>
+
+<g id="content">
+  <text x="64" y="66" font-size="24" font-weight="700" fill="#172033">Пустые состояния</text>
+  <text x="64" y="94" font-size="13" font-weight="500" fill="#64748B">Что видит человек, когда данных ещё нет. Каждое объясняет, что появится и как это получить</text>
+  <rect x="64" y="150" width="424" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="92" y="190" font-size="11" font-weight="700" fill="#94A3B8">ЗАДАЧИ</text>
+  <rect x="92" y="214" width="40" height="40" rx="10" fill="#EEF2FF"/>
+  <rect x="105" y="229" width="14" height="11" rx="2" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+  <text x="92" y="288" font-size="15" font-weight="700" fill="#172033">Пока нет ни одной задачи</text>
+  <text x="92" y="316" font-size="13" font-weight="500" fill="#64748B">Создайте первую — она появится в списке, на доске и </text>
+  <text x="92" y="336" font-size="13" font-weight="500" fill="#64748B">в метриках на «Обзоре».</text>
+  <rect x="92" y="412" width="150" height="36" rx="8" fill="#4F46E5"/>
+  <text x="167" y="435" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Создать задачу</text>
+  <rect x="520" y="150" width="424" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="548" y="190" font-size="11" font-weight="700" fill="#94A3B8">БАЗА ЗНАНИЙ</text>
+  <rect x="548" y="214" width="40" height="40" rx="10" fill="#EEF2FF"/>
+  <rect x="561" y="229" width="14" height="11" rx="2" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+  <text x="548" y="288" font-size="15" font-weight="700" fill="#172033">В базе знаний пусто</text>
+  <text x="548" y="316" font-size="13" font-weight="500" fill="#64748B">Статьи можно писать сразу или загрузить документацию</text>
+  <text x="548" y="336" font-size="13" font-weight="500" fill="#64748B"> файлами — она попадёт в поиск.</text>
+  <rect x="548" y="412" width="150" height="36" rx="8" fill="#4F46E5"/>
+  <text x="623" y="435" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Создать статью</text>
+  <rect x="976" y="150" width="424" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="1004" y="190" font-size="11" font-weight="700" fill="#94A3B8">ФАЙЛЫ</text>
+  <rect x="1004" y="214" width="40" height="40" rx="10" fill="#EEF2FF"/>
+  <rect x="1017" y="229" width="14" height="11" rx="2" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+  <text x="1004" y="288" font-size="15" font-weight="700" fill="#172033">Файлов пока нет</text>
+  <text x="1004" y="316" font-size="13" font-weight="500" fill="#64748B">Перетащите документы в окно загрузки. После индексац</text>
+  <text x="1004" y="336" font-size="13" font-weight="500" fill="#64748B">ии они станут источниками для ассистента.</text>
+  <rect x="1004" y="412" width="150" height="36" rx="8" fill="#4F46E5"/>
+  <text x="1079" y="435" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Загрузить файлы</text>
+  <rect x="64" y="512" width="424" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="92" y="552" font-size="11" font-weight="700" fill="#94A3B8">УЧАСТНИКИ</text>
+  <rect x="92" y="576" width="40" height="40" rx="10" fill="#EEF2FF"/>
+  <rect x="105" y="591" width="14" height="11" rx="2" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+  <text x="92" y="650" font-size="15" font-weight="700" fill="#172033">Вы работаете один</text>
+  <text x="92" y="678" font-size="13" font-weight="500" fill="#64748B">Пригласите команду — роли настраиваются при отправке</text>
+  <text x="92" y="698" font-size="13" font-weight="500" fill="#64748B"> приглашения.</text>
+  <rect x="92" y="774" width="150" height="36" rx="8" fill="#4F46E5"/>
+  <text x="167" y="797" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Пригласить</text>
+  <rect x="520" y="512" width="424" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="548" y="552" font-size="11" font-weight="700" fill="#94A3B8">АССИСТЕНТ</text>
+  <rect x="548" y="576" width="40" height="40" rx="10" fill="#EEF2FF"/>
+  <rect x="561" y="591" width="14" height="11" rx="2" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+  <text x="548" y="650" font-size="15" font-weight="700" fill="#172033">Ассистент пока не может отвечать</text>
+  <text x="548" y="678" font-size="13" font-weight="500" fill="#64748B">Он опирается на материалы пространства. Добавьте зад</text>
+  <text x="548" y="698" font-size="13" font-weight="500" fill="#64748B">ачи или документы — и сможет отвечать.</text>
+  <rect x="548" y="774" width="170" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="633" y="797" font-size="13" font-weight="600" fill="#172033" text-anchor="middle">Открыть файлы</text>
+  <rect x="976" y="512" width="424" height="330" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="1004" y="552" font-size="11" font-weight="700" fill="#94A3B8">ГДЕ ЕЩЁ НУЖНЫ</text>
+  <text x="1004" y="584" font-size="13" font-weight="600" fill="#172033">Пустое состояние нужно на каждом</text>
+  <text x="1004" y="604" font-size="13" font-weight="600" fill="#172033">списке и в каждой панели:</text>
+  <circle cx="1008" cy="640" r="3" fill="#94A3B8"/>
+  <text x="1022" y="644" font-size="13" font-weight="500" fill="#64748B">поиск без результатов</text>
+  <circle cx="1008" cy="666" r="3" fill="#94A3B8"/>
+  <text x="1022" y="670" font-size="13" font-weight="500" fill="#64748B">фильтр без совпадений</text>
+  <circle cx="1008" cy="692" r="3" fill="#94A3B8"/>
+  <text x="1022" y="696" font-size="13" font-weight="500" fill="#64748B">нет связей в графе</text>
+  <circle cx="1008" cy="718" r="3" fill="#94A3B8"/>
+  <text x="1022" y="722" font-size="13" font-weight="500" fill="#64748B">нет коммитов в Git</text>
+  <circle cx="1008" cy="744" r="3" fill="#94A3B8"/>
+  <text x="1022" y="748" font-size="13" font-weight="500" fill="#64748B">нет событий в журнале</text>
+</g>
+</svg>
