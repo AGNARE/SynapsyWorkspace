@@ -12,7 +12,7 @@
 
 ## 2. Состояния — готовы
 
-Пять листов в папке [`synapse-figma-states/`](../../synapse-figma-states):
+Двенадцать реальных экранов в папке [`synapse-figma-states/`](../../synapse-figma-states):
 
 | Экран | Состояние |
 |---|---|
