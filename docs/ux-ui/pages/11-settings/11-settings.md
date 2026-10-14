@@ -2,7 +2,7 @@
 
 *Параметры пространства и опасные действия отдельно.*
 
-![Экран «Настройки пространства»](11-settings.png)
+![Экран «Настройки пространства»](<11 — Настройки пространства.png>)
 
 **Figma:** [11-settings](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-8503)
 

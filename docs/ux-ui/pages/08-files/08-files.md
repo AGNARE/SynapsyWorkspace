@@ -2,7 +2,7 @@
 
 *Хранилище с прозрачным состоянием индексации.*
 
-![Экран «Файлы»](08-files.png)
+![Экран «Файлы»](<08 — Файлы.png>)
 
 **Figma:** [08-files](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-7814)
 

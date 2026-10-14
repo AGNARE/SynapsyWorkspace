@@ -2,7 +2,7 @@
 
 *Первый экран продукта. Показывает, куда человек попал, и пускает внутрь.*
 
-![Экран «Вход»](00-login.png)
+![Экран «Вход»](<00 — Вход.png>)
 
 **Figma:** [Synapse Workspace](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace)
 · **Статус:** собран · страницы входа не было ни в одном наборе

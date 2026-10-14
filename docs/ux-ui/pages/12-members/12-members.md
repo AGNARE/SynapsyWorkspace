@@ -2,7 +2,7 @@
 
 *Кто имеет доступ и с какой ролью.*
 
-![Экран «Участники»](12-members.png)
+![Экран «Участники»](<12 — Участники.png>)
 
 **Figma:** [12-members](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-8647)
 

@@ -2,7 +2,7 @@
 
 *Просмотр опубликованной статьи: содержание, версии, связи.*
 
-![Экран «Статья»](06-article.png)
+![Экран «Статья»](<06 — Статья.png>)
 
 **Figma:** [06-article](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=118-7426)
 
