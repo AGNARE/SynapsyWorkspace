@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Wiki — база знаний рабочего пространства</title>
+<desc>Экран Wiki: дерево базы знаний с быстрыми ссылками, статья с бейджем PUBLISHED, схема потока аутентификации и контекстная панель со ссылками Wiki и связями.</desc>
+
+<g id="sidebar">
+<rect id="sidebar-bg" x="0" y="0" width="240" height="1024" fill="#FFFFFF"/>
+<rect id="sidebar-border" x="239" y="0" width="1" height="1024" fill="#E2E8F0"/>
+<text id="brand-line1" x="24" y="32" font-size="15" font-weight="700" fill="#172033">SYNAPSE</text>
+<text id="brand-line2" x="24" y="52" font-size="15" font-weight="700" fill="#6366F1">Workspace</text>
+<g id="workspace-switcher">
+<rect x="16" y="80" width="208" height="56" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="32" y="104" font-size="13" font-weight="600" fill="#172033">Synapse Development</text>
+<text x="32" y="122" font-size="11" font-weight="500" fill="#64748B">Корпоративное пространство</text>
+<path d="M196 106l6 6 6-6" fill="none" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<g id="nav-primary">
+<rect x="24" y="128" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="33" y="128" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="24" y="137" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="33" y="137" width="6" height="6" rx="1.5" fill="#64748B"/>
+<text x="48" y="141" font-size="13" font-weight="500" fill="#64748B">Обзор</text>
+
+<rect id="nav-tasks" x="24" y="164" width="16" height="16" rx="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M28 172l3 3 6-6" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="177" font-size="13" font-weight="500" fill="#172033">Задачи</text>
+
+<circle cx="32" cy="208" r="7" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="213" font-size="13" font-weight="500" fill="#172033">Входящие</text>
+
+<rect x="25" y="236" width="14" height="14" rx="3" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="249" font-size="13" font-weight="500" fill="#172033">Мои задачи</text>
+
+<rect x="24" y="274" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="279" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="284" width="11" height="1.5" rx="0.75" fill="#64748B"/>
+<text x="48" y="285" font-size="13" font-weight="500" fill="#172033">Все задачи</text>
+
+<rect x="24" y="308" width="4" height="16" rx="1.5" fill="#64748B"/>
+<rect x="30" y="308" width="4" height="11" rx="1.5" fill="#64748B"/>
+<rect x="36" y="308" width="4" height="14" rx="1.5" fill="#64748B"/>
+<text x="48" y="321" font-size="13" font-weight="500" fill="#172033">Kanban</text>
+</g>
+
+<rect id="divider-1" x="16" y="348" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-knowledge">
+<rect x="24" y="369" width="16" height="14" rx="2" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<rect x="27" y="369" width="1.4" height="14" fill="#64748B"/>
+<text x="48" y="381" font-size="13" font-weight="500" fill="#172033">База знаний</text>
+
+<rect id="nav-wiki" x="12" y="392" width="216" height="32" rx="8" fill="#EEF2FF"/>
+<rect x="24" y="405" width="16" height="1.5" rx="0.75" fill="#4F46E5"/>
+<rect x="24" y="410" width="16" height="1.5" rx="0.75" fill="#4F46E5"/>
+<rect x="24" y="415" width="9" height="1.5" rx="0.75" fill="#4F46E5"/>
+<text id="nav-wiki-label" x="48" y="417" font-size="13" font-weight="600" fill="#4F46E5">Wiki</text>
+
+<path d="M25 447l8-4 8 5" fill="none" stroke="#64748B" stroke-width="1.2"/>
+<circle cx="25" cy="447" r="2.6" fill="#64748B"/>
+<circle cx="33" cy="443" r="2.6" fill="#64748B"/>
+<circle cx="41" cy="448" r="2.6" fill="#64748B"/>
+<text x="48" y="453" font-size="13" font-weight="500" fill="#172033">Граф</text>
+</g>
+
+<rect id="divider-2" x="16" y="480" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-workspace">
+<path d="M24 500h5.5l2 2.5h8.5v10.5H24z" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="48" y="513" font-size="13" font-weight="500" fill="#172033">Файлы</text>
+
+<path d="M32 536l2.2 5.4 5.4 2.2-5.4 2.2-2.2 5.4-2.2-5.4-5.4-2.2 5.4-2.2z" fill="#64748B"/>
+<text x="48" y="549" font-size="13" font-weight="500" fill="#172033">AI-ассистент</text>
+</g>
+
+<rect id="divider-3" x="16" y="576" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-modules">
+<circle cx="28" cy="604" r="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M31 601l6-6" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<circle cx="39" cy="593" r="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="609" font-size="13" font-weight="500" fill="#172033">Git</text>
+
+<rect x="24" y="632" width="16" height="4" rx="2" fill="#64748B"/>
+<rect x="30" y="640" width="10" height="4" rx="2" fill="#64748B"/>
+<text x="48" y="645" font-size="13" font-weight="500" fill="#172033">Gantt</text>
+</g>
+
+<rect id="divider-4" x="16" y="790" width="208" height="1" fill="#E2E8F0"/>
+<text id="nav-search-label" x="24" y="817" font-size="11" font-weight="700" fill="#94A3B8">ПОИСК</text>
+<circle cx="30" cy="840" r="6" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M34.5 844.5l4 4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<text x="48" y="845" font-size="13" font-weight="500" fill="#172033">Быстрый поиск</text>
+<text x="208" y="845" font-size="11" font-weight="500" fill="#94A3B8" text-anchor="end">Ctrl K</text>
+<path d="M24 878h16v10H30l-6 4z" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="48" y="889" font-size="13" font-weight="500" fill="#172033">Командное меню</text>
+
+<rect id="divider-5" x="16" y="918" width="208" height="1" fill="#E2E8F0"/>
+<path d="M32 930a6 6 0 0 1 6 6v4h-12v-4a6 6 0 0 1 6-6z" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<circle cx="32" cy="943" r="1.8" fill="#64748B"/>
+<text x="48" y="945" font-size="13" font-weight="500" fill="#172033">Настройки</text>
+
+<g id="sidebar-user">
+<circle cx="32" cy="982" r="16" fill="#6366F1"/>
+<text x="32" y="987" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+<text x="56" y="980" font-size="13" font-weight="600" fill="#172033">Арген Багылов</text>
+<text x="56" y="997" font-size="11" font-weight="500" fill="#64748B">Владелец</text>
+</g>
+</g>
+
+<g id="topbar">
+<rect id="topbar-bg" x="240" y="0" width="1200" height="64" fill="#FFFFFF"/>
+<rect id="topbar-border" x="240" y="63" width="1200" height="1" fill="#E2E8F0"/>
+<text id="topbar-title" x="264" y="39" font-size="13" font-weight="600" fill="#172033">Wiki</text>
+<g id="topbar-search">
+<rect x="798" y="16" width="320" height="32" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+<circle cx="818" cy="32" r="5" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M822 36l4 4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<text x="834" y="37" font-size="13" font-weight="500" fill="#64748B">Поиск в рабочем пространстве</text>
+<rect x="1070" y="22" width="40" height="20" rx="6" fill="#F1F5F9"/>
+<text x="1090" y="36" font-size="11" font-weight="600" fill="#64748B" text-anchor="middle">Ctrl K</text>
+</g>
+<g id="topbar-help">
+<circle cx="1152" cy="32" r="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="1152" y="37" font-size="12" font-weight="600" fill="#64748B" text-anchor="middle">?</text>
+</g>
+<g id="topbar-notifications">
+<circle cx="1196" cy="32" r="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<path d="M1196 25a4.5 4.5 0 0 0-4.5 4.5v3.5l-1.5 1.8h12l-1.5-1.8v-3.5a4.5 4.5 0 0 0-4.5-4.5z" fill="none" stroke="#64748B" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="1196" cy="37.5" r="1.4" fill="#64748B"/>
+</g>
+<g id="topbar-user">
+<circle cx="1400" cy="32" r="16" fill="#6366F1"/>
+<text x="1400" y="37" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+</g>
+</g>
+
+<g id="content">
+<text id="page-title" x="264" y="118" font-size="24" font-weight="700" fill="#172033">Wiki</text>
+<text id="page-subtitle" x="264" y="142" font-size="13" font-weight="500" fill="#64748B">Корпоративная база знаний · дерево, статья и контекст</text>
+
+<g id="btn-new-article">
+<rect x="1308" y="88" width="108" height="36" rx="8" fill="#4F46E5"/>
+<path d="M1324 106h12M1330 100v12" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1344" y="111" font-size="13" font-weight="600" fill="#FFFFFF">Новая статья</text>
+</g>
+
+<g id="knowledge-tree">
+<rect id="tree-card" x="264" y="164" width="276" height="880" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text id="tree-title" x="284" y="196" font-size="15" font-weight="700" fill="#172033">База знаний</text>
+<circle cx="502" cy="190" r="6" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<path d="M506.5 194.5l4.5 4.5" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+
+<circle cx="292" cy="288" r="4" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
+<text id="tree-item-architecture" x="304" y="292" font-size="13" font-weight="500" fill="#172033">Архитектура</text>
+
+<circle cx="316" cy="332" r="2.5" fill="#64748B"/>
+<text id="tree-item-guidelines" x="328" y="336" font-size="13" font-weight="500" fill="#172033">Руководство по архитектуре</text>
+
+<rect id="tree-item-auth-active" x="300" y="362" width="224" height="32" rx="8" fill="#EEF2FF"/>
+<circle cx="316" cy="378" r="2.5" fill="#4F46E5"/>
+<text id="tree-item-auth" x="328" y="382" font-size="13" font-weight="600" fill="#4F46E5">Архитектура аутентификации</text>
+
+<circle cx="292" cy="428" r="4" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
+<text id="tree-item-security" x="304" y="432" font-size="13" font-weight="500" fill="#172033">Безопасность</text>
+
+<circle cx="316" cy="472" r="2.5" fill="#64748B"/>
+<text id="tree-item-policy" x="328" y="476" font-size="13" font-weight="500" fill="#172033">Политика безопасности</text>
+
+<circle cx="316" cy="516" r="2.5" fill="#64748B"/>
+<text id="tree-item-release" x="328" y="520" font-size="13" font-weight="500" fill="#172033">Чек-лист релиза</text>
+
+<circle cx="292" cy="568" r="4" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
+<text id="tree-item-engineering" x="304" y="572" font-size="13" font-weight="500" fill="#172033">Инженерия</text>
+
+<circle cx="316" cy="612" r="2.5" fill="#64748B"/>
+<text id="tree-item-code" x="328" y="616" font-size="13" font-weight="500" fill="#172033">Соглашения о коде</text>
+
+<rect id="tree-divider" x="284" y="664" width="236" height="1" fill="#F1F5F9"/>
+
+<text id="quick-links-title" x="284" y="692" font-size="11" font-weight="700" fill="#94A3B8">БЫСТРЫЕ ССЫЛКИ</text>
+<text id="quick-links-favorites" x="284" y="733" font-size="13" font-weight="500" fill="#172033">Избранное</text>
+<text id="quick-links-recent" x="284" y="783" font-size="13" font-weight="500" fill="#172033">Недавно открытые</text>
+<text id="quick-links-drafts" x="284" y="833" font-size="13" font-weight="500" fill="#172033">Черновики</text>
+</g>
+
+<g id="article">
+<rect id="article-card" x="560" y="164" width="500" height="880" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+
+<text id="article-breadcrumb" x="580" y="200" font-size="12" font-weight="500" fill="#64748B">Архитектура / Архитектура аутентификации</text>
+<text id="article-title" x="580" y="234" font-size="22" font-weight="700" fill="#172033">Архитектура аутентификации</text>
+<text id="article-meta" x="580" y="258" font-size="12" font-weight="500" fill="#64748B">Обновлено Анной Ивановой · 18 минут назад</text>
+
+<rect id="article-status" x="580" y="272" width="78" height="22" rx="11" fill="#ECFDF3"/>
+<text x="619" y="287" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">PUBLISHED</text>
+<rect id="article-task-count" x="668" y="272" width="150" height="22" rx="11" fill="#EEF2FF"/>
+<text x="743" y="287" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">3 связанные задачи</text>
+
+<text id="article-section-purpose" x="580" y="332" font-size="15" font-weight="700" fill="#172033">Назначение</text>
+<text id="article-purpose-line1" x="580" y="356" font-size="13" font-weight="500" fill="#172033">Документ описывает поток аутентификации, хранение</text>
+<text id="article-purpose-line2" x="580" y="376" font-size="13" font-weight="500" fill="#172033">access и refresh token и правила безопасного обновления.</text>
+
+<text id="article-section-flow" x="580" y="420" font-size="15" font-weight="700" fill="#172033">Authentication flow</text>
+<rect id="flow-panel" x="580" y="436" width="460" height="88" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+
+<rect id="flow-client" x="596" y="464" width="84" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="638" y="485" font-size="12" font-weight="600" fill="#172033" text-anchor="middle">Client</text>
+<path d="M690 480h14M700 476l4 4-4 4" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect id="flow-gateway" x="714" y="464" width="118" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="773" y="485" font-size="12" font-weight="600" fill="#172033" text-anchor="middle">API Gateway</text>
+<path d="M842 480h14M852 476l4 4-4 4" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect id="flow-auth" x="866" y="464" width="102" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="917" y="485" font-size="12" font-weight="600" fill="#172033" text-anchor="middle">Auth Service</text>
+<path d="M978 480h14M988 476l4 4-4 4" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect id="flow-token" x="1002" y="464" width="104" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1054" y="485" font-size="12" font-weight="600" fill="#172033" text-anchor="middle">Token Store</text>
+
+<text id="article-section-related" x="580" y="572" font-size="15" font-weight="700" fill="#172033">Связанные сущности</text>
+
+<rect id="related-task-badge" x="580" y="591" width="62" height="22" rx="11" fill="#EEF2FF"/>
+<text x="611" y="606" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">TASK</text>
+<text id="related-task" x="656" y="607" font-size="13" font-weight="600" fill="#172033">TASK-142</text>
+<path id="related-task-chevron" d="M1016 595l5 5-5 5" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect id="related-file-badge" x="580" y="639" width="62" height="22" rx="11" fill="#F1F5F9"/>
+<text x="611" y="654" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">FILE</text>
+<text id="related-file" x="656" y="655" font-size="13" font-weight="600" fill="#172033">jwt-flow.pdf</text>
+<path id="related-file-chevron" d="M1016 643l5 5-5 5" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect id="related-article-badge" x="580" y="687" width="76" height="22" rx="11" fill="#F1F5F9"/>
+<text x="618" y="702" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">ARTICLE</text>
+<text id="related-article" x="670" y="703" font-size="13" font-weight="600" fill="#172033">Политика безопасности</text>
+<path id="related-article-chevron" d="M1016 691l5 5-5 5" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<g id="context-panel">
+<rect id="context-card" x="1080" y="164" width="336" height="880" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+
+<text id="context-title" x="1100" y="196" font-size="15" font-weight="700" fill="#172033">Контекст</text>
+<text id="context-subtitle" x="1100" y="216" font-size="12" font-weight="500" fill="#64748B">Связи текущей статьи</text>
+
+<text id="context-tasks-label" x="1100" y="258" font-size="11" font-weight="700" fill="#94A3B8">ЗАДАЧИ</text>
+<text id="context-tasks-value" x="1100" y="282" font-size="13" font-weight="600" fill="#172033">TASK-142 · TASK-147</text>
+
+<text id="context-files-label" x="1100" y="320" font-size="11" font-weight="700" fill="#94A3B8">ФАЙЛЫ</text>
+<text id="context-files-value" x="1100" y="344" font-size="13" font-weight="600" fill="#172033">jwt-flow.pdf · security-guide.docx</text>
+
+<text id="context-articles-label" x="1100" y="382" font-size="11" font-weight="700" fill="#94A3B8">СТАТЬИ</text>
+<text id="context-articles-value" x="1100" y="406" font-size="13" font-weight="600" fill="#172033">Политика безопасности</text>
+
+<text id="context-graph-label" x="1100" y="444" font-size="11" font-weight="700" fill="#94A3B8">ГРАФ</text>
+<text id="context-graph-value" x="1100" y="468" font-size="13" font-weight="600" fill="#172033">6 связей</text>
+
+<rect id="context-divider" x="1100" y="496" width="296" height="1" fill="#F1F5F9"/>
+
+<text id="wiki-links-title" x="1100" y="536" font-size="15" font-weight="700" fill="#172033">Ссылки Wiki</text>
+
+<rect id="wiki-link-task-code" x="1100" y="552" width="132" height="24" rx="6" fill="#F1F5F9"/>
+<text id="wiki-link-task" x="1112" y="569" font-size="12" font-weight="600" fill="#4F46E5">[[#TASK-142]]</text>
+<text id="wiki-link-task-note" x="1100" y="596" font-size="12" font-weight="500" fill="#64748B">связано с текущей задачей</text>
+
+<rect id="wiki-link-policy-code" x="1100" y="626" width="168" height="24" rx="6" fill="#F1F5F9"/>
+<text id="wiki-link-policy" x="1112" y="643" font-size="12" font-weight="600" fill="#4F46E5">[[Security Policy]]</text>
+<text id="wiki-link-policy-note" x="1100" y="670" font-size="12" font-weight="500" fill="#64748B">кликабельная ссылка на статью</text>
+
+<rect id="context-divider-2" x="1100" y="700" width="296" height="1" fill="#F1F5F9"/>
+
+<rect id="indexed-badge" x="1100" y="856" width="78" height="22" rx="11" fill="#ECFDF3"/>
+<text x="1139" y="871" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">INDEXED</text>
+<text id="indexed-note" x="1192" y="871" font-size="12" font-weight="500" fill="#64748B">Доступно для AI</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Журнал аудита — системные события рабочего пространства</title>
+<desc>Экран «Журнал аудита»: строка фильтров с поиском и чипами, кнопка «Экспорт», таблица из восьми событий (время, участник, действие, объект, IP-адрес), пагинация и пояснение о неизменяемости журнала. Термин «IP-адрес» оставлен латиницей как техническое обозначение протокола.</desc>
+
+<g id="sidebar">
+<rect id="sidebar-bg" x="0" y="0" width="240" height="1024" fill="#FFFFFF"/>
+<rect id="sidebar-border" x="239" y="0" width="1" height="1024" fill="#E2E8F0"/>
+<text id="brand-line1" x="24" y="32" font-size="15" font-weight="700" fill="#172033">SYNAPSE</text>
+<text id="brand-line2" x="24" y="52" font-size="15" font-weight="700" fill="#6366F1">Workspace</text>
+<g id="workspace-switcher">
+<rect x="16" y="80" width="208" height="56" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="32" y="104" font-size="13" font-weight="600" fill="#172033">Synapse Development</text>
+<text x="32" y="122" font-size="11" font-weight="500" fill="#64748B">Корпоративное пространство</text>
+<path d="M196 106l6 6 6-6" fill="none" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<g id="nav-primary">
+<rect x="24" y="128" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="33" y="128" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="24" y="137" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="33" y="137" width="6" height="6" rx="1.5" fill="#64748B"/>
+<text x="48" y="141" font-size="13" font-weight="500" fill="#172033">Обзор</text>
+
+<rect id="nav-tasks" x="24" y="164" width="16" height="16" rx="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M28 172l3 3 6-6" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="177" font-size="13" font-weight="500" fill="#172033">Задачи</text>
+
+<circle cx="32" cy="208" r="7" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="213" font-size="13" font-weight="500" fill="#172033">Входящие</text>
+
+<rect x="25" y="236" width="14" height="14" rx="3" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="249" font-size="13" font-weight="500" fill="#172033">Мои задачи</text>
+
+<rect x="24" y="274" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="279" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="284" width="11" height="1.5" rx="0.75" fill="#64748B"/>
+<text x="48" y="285" font-size="13" font-weight="500" fill="#172033">Все задачи</text>
+
+<rect x="24" y="308" width="4" height="16" rx="1.5" fill="#64748B"/>
+<rect x="30" y="308" width="4" height="11" rx="1.5" fill="#64748B"/>
+<rect x="36" y="308" width="4" height="14" rx="1.5" fill="#64748B"/>
+<text x="48" y="321" font-size="13" font-weight="500" fill="#172033">Kanban</text>
+</g>
+
+<rect id="divider-1" x="16" y="348" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-knowledge">
+<rect x="24" y="369" width="16" height="14" rx="2" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<rect x="27" y="369" width="1.4" height="14" fill="#64748B"/>
+<text x="48" y="381" font-size="13" font-weight="500" fill="#172033">База знаний</text>
+
+<rect x="24" y="405" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="410" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="415" width="9" height="1.5" rx="0.75" fill="#64748B"/>
+<text x="48" y="417" font-size="13" font-weight="500" fill="#172033">Wiki</text>
+
+<path d="M25 447l8-4 8 5" fill="none" stroke="#64748B" stroke-width="1.2"/>
+<circle cx="25" cy="447" r="2.6" fill="#64748B"/>
+<circle cx="33" cy="443" r="2.6" fill="#64748B"/>
+<circle cx="41" cy="448" r="2.6" fill="#64748B"/>
+<text x="48" y="453" font-size="13" font-weight="500" fill="#172033">Граф</text>
+</g>
+
+<rect id="divider-2" x="16" y="480" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-workspace">
+<path d="M24 500h5.5l2 2.5h8.5v10.5H24z" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="48" y="513" font-size="13" font-weight="500" fill="#172033">Файлы</text>
+
+<path d="M32 536l2.2 5.4 5.4 2.2-5.4 2.2-2.2 5.4-2.2-5.4-5.4-2.2 5.4-2.2z" fill="#64748B"/>
+<text x="48" y="549" font-size="13" font-weight="500" fill="#172033">AI-ассистент</text>
+</g>
+
+<rect id="divider-3" x="16" y="576" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-modules">
+<circle cx="28" cy="604" r="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M31 601l6-6" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<circle cx="39" cy="593" r="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="609" font-size="13" font-weight="500" fill="#172033">Git</text>
+
+<rect x="24" y="632" width="16" height="4" rx="2" fill="#64748B"/>
+<rect x="30" y="640" width="10" height="4" rx="2" fill="#64748B"/>
+<text x="48" y="645" font-size="13" font-weight="500" fill="#172033">Gantt</text>
+</g>
+
+<rect id="divider-4" x="16" y="790" width="208" height="1" fill="#E2E8F0"/>
+<text id="nav-search-label" x="24" y="817" font-size="11" font-weight="700" fill="#94A3B8">ПОИСК</text>
+<circle cx="30" cy="840" r="6" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M34.5 844.5l4 4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<text x="48" y="845" font-size="13" font-weight="500" fill="#172033">Быстрый поиск</text>
+<text x="208" y="845" font-size="11" font-weight="500" fill="#94A3B8" text-anchor="end">Ctrl K</text>
+<path d="M24 878h16v10H30l-6 4z" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="48" y="889" font-size="13" font-weight="500" fill="#172033">Командное меню</text>
+
+<rect id="divider-5" x="16" y="918" width="208" height="1" fill="#E2E8F0"/>
+<rect id="nav-settings" x="12" y="930" width="216" height="32" rx="8" fill="#EEF2FF"/>
+<path d="M32 930a6 6 0 0 1 6 6v4h-12v-4a6 6 0 0 1 6-6z" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+<circle cx="32" cy="943" r="1.8" fill="#4F46E5"/>
+<text id="nav-settings-label" x="48" y="945" font-size="13" font-weight="600" fill="#4F46E5">Настройки</text>
+
+<g id="sidebar-user">
+<circle cx="32" cy="982" r="16" fill="#6366F1"/>
+<text x="32" y="987" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+<text x="56" y="980" font-size="13" font-weight="600" fill="#172033">Арген Багылов</text>
+<text x="56" y="997" font-size="11" font-weight="500" fill="#64748B">Владелец</text>
+</g>
+</g>
+
+<g id="topbar">
+<rect id="topbar-bg" x="240" y="0" width="1200" height="64" fill="#FFFFFF"/>
+<rect id="topbar-border" x="240" y="63" width="1200" height="1" fill="#E2E8F0"/>
+<text id="topbar-title" x="264" y="39" font-size="13" font-weight="600" fill="#172033">Журнал аудита</text>
+<g id="topbar-search">
+<rect x="798" y="16" width="320" height="32" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+<circle cx="818" cy="32" r="5" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M822 36l4 4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<text x="834" y="37" font-size="13" font-weight="500" fill="#64748B">Поиск в рабочем пространстве</text>
+<rect x="1070" y="22" width="40" height="20" rx="6" fill="#F1F5F9"/>
+<text x="1090" y="36" font-size="11" font-weight="600" fill="#64748B" text-anchor="middle">Ctrl K</text>
+</g>
+<g id="topbar-help">
+<circle cx="1152" cy="32" r="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="1152" y="37" font-size="12" font-weight="600" fill="#64748B" text-anchor="middle">?</text>
+</g>
+<g id="topbar-notifications">
+<circle cx="1196" cy="32" r="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<path d="M1196 25a4.5 4.5 0 0 0-4.5 4.5v3.5l-1.5 1.8h12l-1.5-1.8v-3.5a4.5 4.5 0 0 0-4.5-4.5z" fill="none" stroke="#64748B" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="1196" cy="37.5" r="1.4" fill="#64748B"/>
+</g>
+<g id="topbar-user">
+<circle cx="1400" cy="32" r="16" fill="#6366F1"/>
+<text x="1400" y="37" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+</g>
+</g>
+
+<g id="content">
+<text id="page-title" x="264" y="118" font-size="24" font-weight="700" fill="#172033">Журнал аудита</text>
+<text id="page-subtitle" x="264" y="142" font-size="13" font-weight="500" fill="#64748B">Системные события рабочего пространства: кто, что и когда изменил</text>
+
+<g id="btn-export">
+<rect x="1286" y="88" width="130" height="36" rx="8" fill="#4F46E5"/>
+<path d="M1304 99v11M1299 105l5 5 5-5M1300 114h9" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1322" y="111" font-size="13" font-weight="600" fill="#FFFFFF">Экспорт</text>
+</g>
+
+<g id="filter-bar">
+<rect x="264" y="164" width="1152" height="52" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+<rect x="284" y="174" width="696" height="32" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+<circle cx="304" cy="188" r="5.5" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+<path d="M308 192l4.5 4.5" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+<text x="322" y="195" font-size="13" font-weight="500" fill="#94A3B8">Поиск по участнику, объекту или событию</text>
+
+<rect x="996" y="174" width="148" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1010" y="195" font-size="12" font-weight="500" fill="#475569">Период: 30 дней</text>
+<path d="M1118 187l5 5 5-5" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect x="1152" y="174" width="136" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1166" y="195" font-size="12" font-weight="500" fill="#475569">Все участники</text>
+<path d="M1262 187l5 5 5-5" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<rect x="1296" y="174" width="100" height="32" rx="8" fill="#EEF2FF" stroke="#C7D2FE"/>
+<text x="1310" y="195" font-size="12" font-weight="600" fill="#4F46E5">Все события</text>
+</g>
+
+<g id="audit-table">
+<rect x="264" y="228" width="1152" height="440" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text id="th-time" x="284" y="254" font-size="11" font-weight="700" fill="#94A3B8">ВРЕМЯ</text>
+<text id="th-user" x="400" y="254" font-size="11" font-weight="700" fill="#94A3B8">УЧАСТНИК</text>
+<text id="th-action" x="640" y="254" font-size="11" font-weight="700" fill="#94A3B8">ДЕЙСТВИЕ</text>
+<text id="th-entity" x="900" y="254" font-size="11" font-weight="700" fill="#94A3B8">ОБЪЕКТ ДЕЙСТВИЯ</text>
+<text id="th-ip" x="1276" y="254" font-size="11" font-weight="700" fill="#94A3B8">IP-АДРЕС</text>
+<rect x="264" y="268" width="1152" height="1" fill="#E2E8F0"/>
+
+<g id="audit-row-1">
+<text x="284" y="296" font-size="12" font-weight="500" fill="#64748B">14:35</text>
+<circle cx="400" cy="292" r="12" fill="#6366F1"/>
+<text x="400" y="296" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+<text x="420" y="296" font-size="12" font-weight="500" fill="#172033">Арген Багылов</text>
+<text x="640" y="296" font-size="13" font-weight="500" fill="#172033">изменил статус</text>
+<text x="900" y="296" font-size="12" font-weight="600" fill="#4F46E5">TASK-142</text>
+<text x="1276" y="296" font-size="12" font-weight="500" fill="#64748B">192.168.1.24</text>
+<rect x="284" y="316" width="1112" height="1" fill="#F1F5F9"/>
+</g>
+
+<g id="audit-row-2">
+<text x="284" y="344" font-size="12" font-weight="500" fill="#64748B">14:10</text>
+<circle cx="400" cy="340" r="12" fill="#EEF2FF"/>
+<text x="400" y="344" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">А</text>
+<text x="420" y="344" font-size="12" font-weight="500" fill="#172033">Анна Иванова</text>
+<text x="640" y="344" font-size="13" font-weight="500" fill="#172033">обновила статью</text>
+<text x="900" y="344" font-size="12" font-weight="600" fill="#4F46E5">Руководство по архитектуре</text>
+<text x="1276" y="344" font-size="12" font-weight="500" fill="#64748B">10.0.4.18</text>
+<rect x="284" y="364" width="1112" height="1" fill="#F1F5F9"/>
+</g>
+
+<g id="audit-row-3">
+<text x="284" y="392" font-size="12" font-weight="500" fill="#64748B">13:40</text>
+<circle cx="400" cy="388" r="12" fill="#6366F1"/>
+<text x="400" y="392" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Д</text>
+<text x="420" y="392" font-size="12" font-weight="500" fill="#172033">Денис Сидоров</text>
+<text x="640" y="392" font-size="13" font-weight="500" fill="#172033">загрузил файл</text>
+<text x="900" y="392" font-size="12" font-weight="600" fill="#4F46E5">Спецификация API.pdf</text>
+<text x="1276" y="392" font-size="12" font-weight="500" fill="#64748B">10.0.7.53</text>
+<rect x="284" y="412" width="1112" height="1" fill="#F1F5F9"/>
+</g>
+
+<g id="audit-row-4">
+<text x="284" y="440" font-size="12" font-weight="500" fill="#64748B">12:20</text>
+<circle cx="400" cy="436" r="12" fill="#EEF2FF"/>
+<text x="400" y="440" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">И</text>
+<text x="420" y="440" font-size="12" font-weight="500" fill="#172033">Игорь Петров</text>
+<text x="640" y="440" font-size="13" font-weight="500" fill="#172033">включил модуль</text>
+<text x="900" y="440" font-size="12" font-weight="600" fill="#4F46E5">Git</text>
+<text x="1276" y="440" font-size="12" font-weight="500" fill="#64748B">10.0.2.11</text>
+<rect x="284" y="460" width="1112" height="1" fill="#F1F5F9"/>
+</g>
+
+<g id="audit-row-5">
+<text x="284" y="488" font-size="12" font-weight="500" fill="#64748B">11:55</text>
+<circle cx="400" cy="484" r="12" fill="#EEF2FF"/>
+<path d="M400 478l1.6 4 4 1.6-4 1.6-1.6 4-1.6-4-4-1.6 4-1.6z" fill="#4F46E5"/>
+<text x="420" y="488" font-size="12" font-weight="500" fill="#172033">AI-ассистент</text>
+<text x="640" y="488" font-size="13" font-weight="500" fill="#172033">завершил индексацию</text>
+<text x="900" y="488" font-size="12" font-weight="600" fill="#4F46E5">1 248 документов</text>
+<text x="1276" y="488" font-size="12" font-weight="500" fill="#64748B">10.0.0.7</text>
+<rect x="284" y="508" width="1112" height="1" fill="#F1F5F9"/>
+</g>
+
+<g id="audit-row-6">
+<text x="284" y="536" font-size="12" font-weight="500" fill="#64748B">вчера 18:20</text>
+<circle cx="400" cy="532" r="12" fill="#6366F1"/>
+<text x="400" y="536" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+<text x="420" y="536" font-size="12" font-weight="500" fill="#172033">Арген Багылов</text>
+<text x="640" y="536" font-size="13" font-weight="500" fill="#172033">создал роль</text>
+<text x="900" y="536" font-size="12" font-weight="600" fill="#4F46E5">Разработчик интерфейса</text>
+<text x="1276" y="536" font-size="12" font-weight="500" fill="#64748B">192.168.1.24</text>
+<rect x="284" y="556" width="1112" height="1" fill="#F1F5F9"/>
+</g>
+
+<g id="audit-row-7">
+<text x="284" y="584" font-size="12" font-weight="500" fill="#64748B">вчера 17:42</text>
+<circle cx="400" cy="580" r="12" fill="#EEF2FF"/>
+<text x="400" y="584" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">А</text>
+<text x="420" y="584" font-size="12" font-weight="500" fill="#172033">Анна Иванова</text>
+<text x="640" y="584" font-size="13" font-weight="500" fill="#172033">создала задачу</text>
+<text x="900" y="584" font-size="12" font-weight="600" fill="#4F46E5">TASK-171</text>
+<text x="1276" y="584" font-size="12" font-weight="500" fill="#64748B">10.0.4.18</text>
+<rect x="284" y="604" width="1112" height="1" fill="#F1F5F9"/>
+</g>
+
+<g id="audit-row-8">
+<text x="284" y="632" font-size="12" font-weight="500" fill="#64748B">вчера 16:05</text>
+<circle cx="400" cy="628" r="12" fill="#EEF2FF"/>
+<text x="400" y="632" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">И</text>
+<text x="420" y="632" font-size="12" font-weight="500" fill="#172033">Игорь Петров</text>
+<text x="640" y="632" font-size="13" font-weight="500" fill="#172033">архивировал пространство</text>
+<text x="900" y="632" font-size="12" font-weight="600" fill="#4F46E5">Исследовательская лаборатория</text>
+<text x="1276" y="632" font-size="12" font-weight="500" fill="#64748B">10.0.2.11</text>
+</g>
+</g>
+
+<g id="pagination">
+<text id="pagination-total" x="284" y="706" font-size="12" font-weight="500" fill="#64748B">Показано 1–8 из 1 248 событий</text>
+<rect x="1032" y="684" width="72" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1068" y="705" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">Назад</text>
+<rect x="1112" y="684" width="32" height="32" rx="8" fill="#EEF2FF" stroke="#C7D2FE"/>
+<text x="1128" y="705" font-size="12" font-weight="600" fill="#4F46E5" text-anchor="middle">1</text>
+<rect x="1152" y="684" width="32" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1168" y="705" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">2</text>
+<rect x="1192" y="684" width="32" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1208" y="705" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">3</text>
+<text x="1248" y="705" font-size="12" font-weight="500" fill="#94A3B8" text-anchor="middle">…</text>
+<rect x="1268" y="684" width="40" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1288" y="705" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">156</text>
+<rect x="1316" y="684" width="80" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1356" y="705" font-size="12" font-weight="500" fill="#475569" text-anchor="middle">Вперёд</text>
+</g>
+
+<g id="card-audit-note">
+<rect x="264" y="752" width="1152" height="84" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<circle cx="292" cy="778" r="12" fill="#EEF2FF"/>
+<rect x="285" y="775" width="14" height="10" rx="2" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+<path d="M288.5 775v-2.5a3.5 3.5 0 0 1 7 0V775" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+<text id="audit-note-title" x="318" y="783" font-size="13" font-weight="700" fill="#172033">Журнал аудита неизменяем</text>
+<text id="audit-note-text" x="318" y="805" font-size="13" font-weight="500" fill="#64748B">Записи нельзя изменить или удалить: журнал нужен для расследований и контроля изменений. Срок хранения — 12 месяцев.</text>
+</g>
+</g>
+</svg>

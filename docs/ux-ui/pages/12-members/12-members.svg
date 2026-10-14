@@ -1,0 +1,310 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024" font-family="Inter, Arial, sans-serif">
+<title>Участники — настройки рабочего пространства</title>
+<desc>Экран участников: поиск и фильтр по ролям, таблица участников с ролями и активностью, блок ожидающих приглашения.</desc>
+
+<g id="sidebar">
+<rect id="sidebar-bg" x="0" y="0" width="240" height="1024" fill="#FFFFFF"/>
+<rect id="sidebar-border" x="239" y="0" width="1" height="1024" fill="#E2E8F0"/>
+<text id="brand-line1" x="24" y="32" font-size="15" font-weight="700" fill="#172033">SYNAPSE</text>
+<text id="brand-line2" x="24" y="52" font-size="15" font-weight="700" fill="#6366F1">Workspace</text>
+<g id="workspace-switcher">
+<rect x="16" y="80" width="208" height="56" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="32" y="104" font-size="13" font-weight="600" fill="#172033">Synapse Development</text>
+<text x="32" y="122" font-size="11" font-weight="500" fill="#64748B">Корпоративное пространство</text>
+<path d="M196 106l6 6 6-6" fill="none" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<g id="nav-primary">
+<rect x="24" y="128" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="33" y="128" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="24" y="137" width="6" height="6" rx="1.5" fill="#64748B"/>
+<rect x="33" y="137" width="6" height="6" rx="1.5" fill="#64748B"/>
+<text x="48" y="141" font-size="13" font-weight="500" fill="#172033">Обзор</text>
+
+<rect id="nav-tasks" x="24" y="164" width="16" height="16" rx="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M28 172l3 3 6-6" fill="none" stroke="#64748B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="177" font-size="13" font-weight="500" fill="#172033">Задачи</text>
+
+<circle cx="32" cy="208" r="7" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="213" font-size="13" font-weight="500" fill="#172033">Входящие</text>
+
+<rect x="25" y="236" width="14" height="14" rx="3" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="249" font-size="13" font-weight="500" fill="#172033">Мои задачи</text>
+
+<rect x="24" y="274" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="279" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="284" width="11" height="1.5" rx="0.75" fill="#64748B"/>
+<text x="48" y="285" font-size="13" font-weight="500" fill="#172033">Все задачи</text>
+
+<rect x="24" y="308" width="4" height="16" rx="1.5" fill="#64748B"/>
+<rect x="30" y="308" width="4" height="11" rx="1.5" fill="#64748B"/>
+<rect x="36" y="308" width="4" height="14" rx="1.5" fill="#64748B"/>
+<text x="48" y="321" font-size="13" font-weight="500" fill="#172033">Kanban</text>
+</g>
+
+<rect id="divider-1" x="16" y="348" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-knowledge">
+<rect x="24" y="369" width="16" height="14" rx="2" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<rect x="27" y="369" width="1.4" height="14" fill="#64748B"/>
+<text x="48" y="381" font-size="13" font-weight="500" fill="#172033">База знаний</text>
+
+<rect x="24" y="405" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="410" width="16" height="1.5" rx="0.75" fill="#64748B"/>
+<rect x="24" y="415" width="9" height="1.5" rx="0.75" fill="#64748B"/>
+<text x="48" y="417" font-size="13" font-weight="500" fill="#172033">Wiki</text>
+
+<path d="M25 447l8-4 8 5" fill="none" stroke="#64748B" stroke-width="1.2"/>
+<circle cx="25" cy="447" r="2.6" fill="#64748B"/>
+<circle cx="33" cy="443" r="2.6" fill="#64748B"/>
+<circle cx="41" cy="448" r="2.6" fill="#64748B"/>
+<text x="48" y="453" font-size="13" font-weight="500" fill="#172033">Граф</text>
+</g>
+
+<rect id="divider-2" x="16" y="480" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-workspace">
+<path d="M24 500h5.5l2 2.5h8.5v10.5H24z" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="48" y="513" font-size="13" font-weight="500" fill="#172033">Файлы</text>
+
+<path d="M32 536l2.2 5.4 5.4 2.2-5.4 2.2-2.2 5.4-2.2-5.4-5.4-2.2 5.4-2.2z" fill="#64748B"/>
+<text x="48" y="549" font-size="13" font-weight="500" fill="#172033">AI-ассистент</text>
+</g>
+
+<rect id="divider-3" x="16" y="576" width="208" height="1" fill="#E2E8F0"/>
+
+<g id="nav-modules">
+<circle cx="28" cy="604" r="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M31 601l6-6" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<circle cx="39" cy="593" r="4" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<text x="48" y="609" font-size="13" font-weight="500" fill="#172033">Git</text>
+
+<rect x="24" y="632" width="16" height="4" rx="2" fill="#64748B"/>
+<rect x="30" y="640" width="10" height="4" rx="2" fill="#64748B"/>
+<text x="48" y="645" font-size="13" font-weight="500" fill="#172033">Gantt</text>
+</g>
+
+<rect id="divider-4" x="16" y="790" width="208" height="1" fill="#E2E8F0"/>
+<text id="nav-search-label" x="24" y="817" font-size="11" font-weight="700" fill="#94A3B8">ПОИСК</text>
+<circle cx="30" cy="840" r="6" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M34.5 844.5l4 4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<text x="48" y="845" font-size="13" font-weight="500" fill="#172033">Быстрый поиск</text>
+<text x="208" y="845" font-size="11" font-weight="500" fill="#94A3B8" text-anchor="end">Ctrl K</text>
+<path d="M24 878h16v10H30l-6 4z" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="48" y="889" font-size="13" font-weight="500" fill="#172033">Командное меню</text>
+
+<rect id="divider-5" x="16" y="918" width="208" height="1" fill="#E2E8F0"/>
+<g id="nav-settings-item">
+<rect id="nav-settings" x="12" y="930" width="216" height="32" rx="8" fill="#EEF2FF"/>
+<path d="M32 930a6 6 0 0 1 6 6v4h-12v-4a6 6 0 0 1 6-6z" fill="none" stroke="#4F46E5" stroke-width="1.4"/>
+<circle cx="32" cy="943" r="1.8" fill="#4F46E5"/>
+<text id="nav-settings-label" x="48" y="945" font-size="13" font-weight="600" fill="#4F46E5">Настройки</text>
+</g>
+
+<g id="sidebar-user">
+<circle cx="32" cy="982" r="16" fill="#6366F1"/>
+<text x="32" y="987" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+<text x="56" y="980" font-size="13" font-weight="600" fill="#172033">Арген Багылов</text>
+<text x="56" y="997" font-size="11" font-weight="500" fill="#64748B">Владелец</text>
+</g>
+</g>
+
+<g id="topbar">
+<rect id="topbar-bg" x="240" y="0" width="1200" height="64" fill="#FFFFFF"/>
+<rect id="topbar-border" x="240" y="63" width="1200" height="1" fill="#E2E8F0"/>
+<text id="topbar-title" x="264" y="39" font-size="13" font-weight="600" fill="#172033">Участники</text>
+<g id="topbar-search">
+<rect x="798" y="16" width="320" height="32" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+<circle cx="818" cy="32" r="5" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M822 36l4 4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<text x="834" y="37" font-size="13" font-weight="500" fill="#64748B">Поиск в рабочем пространстве</text>
+<rect x="1070" y="22" width="40" height="20" rx="6" fill="#F1F5F9"/>
+<text x="1090" y="36" font-size="11" font-weight="600" fill="#64748B" text-anchor="middle">Ctrl K</text>
+</g>
+<g id="topbar-help">
+<circle cx="1152" cy="32" r="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="1152" y="37" font-size="12" font-weight="600" fill="#64748B" text-anchor="middle">?</text>
+</g>
+<g id="topbar-notifications">
+<circle cx="1196" cy="32" r="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<path d="M1196 25a4.5 4.5 0 0 0-4.5 4.5v3.5l-1.5 1.8h12l-1.5-1.8v-3.5a4.5 4.5 0 0 0-4.5-4.5z" fill="none" stroke="#64748B" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="1196" cy="37.5" r="1.4" fill="#64748B"/>
+</g>
+<g id="topbar-user">
+<circle cx="1400" cy="32" r="16" fill="#6366F1"/>
+<text x="1400" y="37" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+</g>
+</g>
+
+<g id="content">
+<text id="page-title" x="264" y="118" font-size="24" font-weight="700" fill="#172033">Участники</text>
+<text id="page-subtitle" x="264" y="142" font-size="13" font-weight="500" fill="#64748B">Доступ к рабочему пространству и текущие роли</text>
+
+<g id="btn-invite">
+<rect x="1290" y="88" width="126" height="36" rx="8" fill="#4F46E5"/>
+<path d="M1310 106h12M1316 100v12" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1330" y="111" font-size="13" font-weight="600" fill="#FFFFFF">Пригласить</text>
+</g>
+
+<g id="toolbar-members">
+<rect id="toolbar-bg" x="264" y="160" width="1152" height="56" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+<circle id="members-search-icon" cx="294" cy="188" r="6" fill="none" stroke="#64748B" stroke-width="1.4"/>
+<path d="M298.5 192.5l4 4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+<text id="members-search-placeholder" x="312" y="193" font-size="13" font-weight="500" fill="#94A3B8">Поиск по имени или почте</text>
+<rect id="filter-role" x="1130" y="172" width="96" height="32" rx="8" fill="#EEF2FF" stroke="#C7D2FE"/>
+<text id="filter-role-label" x="1146" y="192" font-size="12" font-weight="600" fill="#4F46E5">Все роли</text>
+<path d="M1198 186l4 4 4-4" fill="none" stroke="#4F46E5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="filter-status" x="1244" y="172" width="96" height="32" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text id="filter-status-label" x="1260" y="192" font-size="12" font-weight="500" fill="#475569">Статус</text>
+<path d="M1312 186l4 4 4-4" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="filter-more" x="1364" y="176" width="32" height="32" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+<path d="M1373 184h14M1373 192h9M1373 200h12" fill="none" stroke="#64748B" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+
+<g id="table-members">
+<rect id="table-bg" x="264" y="232" width="1152" height="376" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+<path id="table-head-bg" d="M264 244a12 12 0 0 1 12-12h1128a12 12 0 0 1 12 12v28H264z" fill="#F8FAFC"/>
+<rect id="table-head-line" x="284" y="272" width="1112" height="1" fill="#E2E8F0"/>
+<text id="th-member" x="284" y="257" font-size="11" font-weight="700" fill="#94A3B8">УЧАСТНИК</text>
+<text id="th-role" x="620" y="257" font-size="11" font-weight="700" fill="#94A3B8">РОЛЬ</text>
+<text id="th-status" x="760" y="257" font-size="11" font-weight="700" fill="#94A3B8">СТАТУС</text>
+<text id="th-joined" x="900" y="257" font-size="11" font-weight="700" fill="#94A3B8">ПРИСОЕДИНИЛСЯ</text>
+<text id="th-activity" x="1080" y="257" font-size="11" font-weight="700" fill="#94A3B8">ПОСЛЕДНЯЯ АКТИВНОСТЬ</text>
+<text id="th-actions" x="1396" y="257" font-size="11" font-weight="700" fill="#94A3B8" text-anchor="end">ДЕЙСТВИЯ</text>
+
+<g id="member-row-1">
+<circle id="member-1-avatar" cx="300" cy="300" r="16" fill="#EEF2FF"/>
+<text x="300" y="304" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">АБ</text>
+<text id="member-1-name" x="328" y="296" font-size="13" font-weight="600" fill="#172033">Арген Багылов</text>
+<text id="member-1-email" x="328" y="312" font-size="11" font-weight="500" fill="#64748B">argen@synapse.dev</text>
+<rect id="member-1-role" x="620" y="289" width="76" height="22" rx="11" fill="#EEF2FF"/>
+<text x="658" y="304" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">Владелец</text>
+<rect id="member-1-status" x="760" y="289" width="68" height="22" rx="11" fill="#ECFDF3"/>
+<text x="794" y="304" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Активен</text>
+<text id="member-1-joined" x="900" y="304" font-size="12" font-weight="500" fill="#64748B">12 января 2024</text>
+<text id="member-1-activity" x="1080" y="304" font-size="12" font-weight="500" fill="#64748B">сейчас</text>
+<circle cx="1388" cy="296" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="300" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="304" r="1.6" fill="#94A3B8"/>
+</g>
+<rect id="row-line-1" x="284" y="328" width="1112" height="1" fill="#F1F5F9"/>
+
+<g id="member-row-2">
+<circle id="member-2-avatar" cx="300" cy="356" r="16" fill="#EEF2FF"/>
+<text x="300" y="360" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">АИ</text>
+<text id="member-2-name" x="328" y="352" font-size="13" font-weight="600" fill="#172033">Анна Иванова</text>
+<text id="member-2-email" x="328" y="368" font-size="11" font-weight="500" fill="#64748B">anna@synapse.dev</text>
+<rect id="member-2-role" x="620" y="345" width="76" height="22" rx="11" fill="#EFF6FF"/>
+<text x="658" y="360" font-size="11" font-weight="600" fill="#0369A1" text-anchor="middle">Редактор</text>
+<rect id="member-2-status" x="760" y="345" width="68" height="22" rx="11" fill="#ECFDF3"/>
+<text x="794" y="360" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Активен</text>
+<text id="member-2-joined" x="900" y="360" font-size="12" font-weight="500" fill="#64748B">3 февраля 2024</text>
+<text id="member-2-activity" x="1080" y="360" font-size="12" font-weight="500" fill="#64748B">18 минут назад</text>
+<circle cx="1388" cy="352" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="356" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="360" r="1.6" fill="#94A3B8"/>
+</g>
+<rect id="row-line-2" x="284" y="384" width="1112" height="1" fill="#F1F5F9"/>
+
+<g id="member-row-3">
+<circle id="member-3-avatar" cx="300" cy="412" r="16" fill="#EEF2FF"/>
+<text x="300" y="416" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">ДС</text>
+<text id="member-3-name" x="328" y="408" font-size="13" font-weight="600" fill="#172033">Денис Сидоров</text>
+<text id="member-3-email" x="328" y="424" font-size="11" font-weight="500" fill="#64748B">denis@synapse.dev</text>
+<rect id="member-3-role" x="620" y="401" width="76" height="22" rx="11" fill="#EFF6FF"/>
+<text x="658" y="416" font-size="11" font-weight="600" fill="#0369A1" text-anchor="middle">Редактор</text>
+<rect id="member-3-status" x="760" y="401" width="68" height="22" rx="11" fill="#ECFDF3"/>
+<text x="794" y="416" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Активен</text>
+<text id="member-3-joined" x="900" y="416" font-size="12" font-weight="500" fill="#64748B">14 марта 2024</text>
+<text id="member-3-activity" x="1080" y="416" font-size="12" font-weight="500" fill="#64748B">41 минуту назад</text>
+<circle cx="1388" cy="408" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="412" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="416" r="1.6" fill="#94A3B8"/>
+</g>
+<rect id="row-line-3" x="284" y="440" width="1112" height="1" fill="#F1F5F9"/>
+
+<g id="member-row-4">
+<circle id="member-4-avatar" cx="300" cy="468" r="16" fill="#EEF2FF"/>
+<text x="300" y="472" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">ИП</text>
+<text id="member-4-name" x="328" y="464" font-size="13" font-weight="600" fill="#172033">Игорь Петров</text>
+<text id="member-4-email" x="328" y="480" font-size="11" font-weight="500" fill="#64748B">igor@synapse.dev</text>
+<rect id="member-4-role" x="620" y="457" width="78" height="22" rx="11" fill="#F1F5F9"/>
+<text x="659" y="472" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Читатель</text>
+<rect id="member-4-status" x="760" y="457" width="68" height="22" rx="11" fill="#ECFDF3"/>
+<text x="794" y="472" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Активен</text>
+<text id="member-4-joined" x="900" y="472" font-size="12" font-weight="500" fill="#64748B">2 апреля 2024</text>
+<text id="member-4-activity" x="1080" y="472" font-size="12" font-weight="500" fill="#64748B">вчера</text>
+<circle cx="1388" cy="464" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="468" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="472" r="1.6" fill="#94A3B8"/>
+</g>
+<rect id="row-line-4" x="284" y="496" width="1112" height="1" fill="#F1F5F9"/>
+
+<g id="member-row-5">
+<circle id="member-5-avatar" cx="300" cy="524" r="16" fill="#EEF2FF"/>
+<text x="300" y="528" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">МК</text>
+<text id="member-5-name" x="328" y="520" font-size="13" font-weight="600" fill="#172033">Мария Ким</text>
+<text id="member-5-email" x="328" y="536" font-size="11" font-weight="500" fill="#64748B">maria@synapse.dev</text>
+<rect id="member-5-role" x="620" y="513" width="78" height="22" rx="11" fill="#F1F5F9"/>
+<text x="659" y="528" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Читатель</text>
+<rect id="member-5-status" x="760" y="513" width="68" height="22" rx="11" fill="#ECFDF3"/>
+<text x="794" y="528" font-size="11" font-weight="600" fill="#15803D" text-anchor="middle">Активен</text>
+<text id="member-5-joined" x="900" y="528" font-size="12" font-weight="500" fill="#64748B">20 мая 2024</text>
+<text id="member-5-activity" x="1080" y="528" font-size="12" font-weight="500" fill="#64748B">2 дня назад</text>
+<circle cx="1388" cy="520" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="524" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="528" r="1.6" fill="#94A3B8"/>
+</g>
+<rect id="row-line-5" x="284" y="552" width="1112" height="1" fill="#F1F5F9"/>
+
+<g id="member-row-6">
+<circle id="member-6-avatar" cx="300" cy="580" r="16" fill="#EEF2FF"/>
+<text x="300" y="584" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">ПО</text>
+<text id="member-6-name" x="328" y="576" font-size="13" font-weight="600" fill="#172033">Павел Орозов</text>
+<text id="member-6-email" x="328" y="592" font-size="11" font-weight="500" fill="#64748B">pavel@synapse.dev</text>
+<rect id="member-6-role" x="620" y="569" width="76" height="22" rx="11" fill="#EFF6FF"/>
+<text x="658" y="584" font-size="11" font-weight="600" fill="#0369A1" text-anchor="middle">Редактор</text>
+<rect id="member-6-status" x="760" y="569" width="110" height="22" rx="11" fill="#F1F5F9"/>
+<text x="815" y="584" font-size="11" font-weight="600" fill="#64748B" text-anchor="middle">Деактивирован</text>
+<text id="member-6-joined" x="900" y="584" font-size="12" font-weight="500" fill="#64748B">5 июня 2024</text>
+<text id="member-6-activity" x="1080" y="584" font-size="12" font-weight="500" fill="#64748B">3 месяца назад</text>
+<circle cx="1388" cy="576" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="580" r="1.6" fill="#94A3B8"/>
+<circle cx="1388" cy="584" r="1.6" fill="#94A3B8"/>
+</g>
+</g>
+
+<g id="card-invitations">
+<rect id="invitations-bg" x="264" y="632" width="1152" height="206" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text id="invitations-title" x="284" y="668" font-size="15" font-weight="700" fill="#172033">Ожидают приглашения</text>
+<text id="invitations-subtitle" x="284" y="688" font-size="12" font-weight="500" fill="#64748B">Приглашения отправлены, но ещё не приняты</text>
+
+<g id="invite-row-1">
+<circle id="invite-1-avatar" cx="300" cy="734" r="16" fill="#EEF2FF"/>
+<text x="300" y="738" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">ЕС</text>
+<text id="invite-1-name" x="328" y="730" font-size="13" font-weight="600" fill="#172033">Елена Смирнова</text>
+<text id="invite-1-email" x="328" y="746" font-size="11" font-weight="500" fill="#64748B">elena@synapse.dev</text>
+<text id="invite-1-role" x="620" y="739" font-size="12" font-weight="500" fill="#64748B">Редактор</text>
+<text id="invite-1-sent" x="820" y="739" font-size="12" font-weight="500" fill="#64748B">Приглашено 3 дня назад</text>
+<rect id="invite-1-repeat" x="1156" y="716" width="116" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1214" y="739" font-size="13" font-weight="600" fill="#172033" text-anchor="middle">Повторить</text>
+<rect id="invite-1-cancel" x="1284" y="716" width="112" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1340" y="739" font-size="13" font-weight="600" fill="#B91C1C" text-anchor="middle">Отменить</text>
+</g>
+<rect id="invite-line" x="284" y="762" width="1112" height="1" fill="#F1F5F9"/>
+
+<g id="invite-row-2">
+<circle id="invite-2-avatar" cx="300" cy="790" r="16" fill="#EEF2FF"/>
+<text x="300" y="794" font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">ТА</text>
+<text id="invite-2-name" x="328" y="786" font-size="13" font-weight="600" fill="#172033">Тимур Асанов</text>
+<text id="invite-2-email" x="328" y="802" font-size="11" font-weight="500" fill="#64748B">timur@synapse.dev</text>
+<text id="invite-2-role" x="620" y="795" font-size="12" font-weight="500" fill="#64748B">Читатель</text>
+<text id="invite-2-sent" x="820" y="795" font-size="12" font-weight="500" fill="#64748B">Приглашено 5 дней назад</text>
+<rect id="invite-2-repeat" x="1156" y="772" width="116" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1214" y="795" font-size="13" font-weight="600" fill="#172033" text-anchor="middle">Повторить</text>
+<rect id="invite-2-cancel" x="1284" y="772" width="112" height="36" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1340" y="795" font-size="13" font-weight="600" fill="#B91C1C" text-anchor="middle">Отменить</text>
+</g>
+</g>
+</g>
+</svg>
