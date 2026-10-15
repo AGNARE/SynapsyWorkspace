@@ -39,4 +39,6 @@
 Те же экраны на тёмной библиотеке компонентов и тёмной коллекции переменных.
 Компоненты общие: меняются значения переменных и палитра, а не разметка.
 
+**Figma:** [m12 — Секрет webhook Git — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-19328)
+
 ![«m12 — Секрет webhook Git» в тёмной теме Aurora](<m12 — Секрет webhook Git — Aurora.png>)

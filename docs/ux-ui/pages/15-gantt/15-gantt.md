@@ -57,4 +57,6 @@
 Те же экраны на тёмной библиотеке компонентов и тёмной коллекции переменных.
 Компоненты общие: меняются значения переменных и палитра, а не разметка.
 
+**Figma:** [15 — Gantt — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-15807)
+
 ![«15 — Gantt» в тёмной теме Aurora](<15 — Gantt — Aurora.png>)

@@ -57,4 +57,6 @@
 Те же экраны на тёмной библиотеке компонентов и тёмной коллекции переменных.
 Компоненты общие: меняются значения переменных и палитра, а не разметка.
 
+**Figma:** [03 — Kanban — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-13648)
+
 ![«03 — Kanban» в тёмной теме Aurora](<03 — Kanban — Aurora.png>)
