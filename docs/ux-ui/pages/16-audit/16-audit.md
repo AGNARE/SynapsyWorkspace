@@ -42,11 +42,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Карточка события с деталями
-- [ ] Фильтр по объекту
-- [ ] Пустой результат фильтра
-
 ---
 
 ## Тёмная тема Aurora
@@ -57,3 +52,4 @@
 **Figma:** [16 — Журнал аудита — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-16022)
 
 ![«16 — Журнал аудита» в тёмной теме Aurora](<16 — Журнал аудита — Aurora.png>)
+

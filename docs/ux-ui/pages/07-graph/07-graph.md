@@ -43,11 +43,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Поведение на большом числе узлов
-- [ ] Легенда типов
-- [ ] Раскрытие подписи узла
-
 ---
 
 ## Тёмная тема Aurora
@@ -58,3 +53,4 @@
 **Figma:** [07 — Граф знаний — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-14285)
 
 ![«07 — Граф знаний» в тёмной теме Aurora](<07 — Граф знаний — Aurora.png>)
+

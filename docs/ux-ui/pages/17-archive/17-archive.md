@@ -49,11 +49,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Состояние «срок истёк»
-- [ ] Поведение участников при архивации
-- [ ] Экран для участника без прав
-
 ---
 
 ## Тёмная тема Aurora
@@ -64,3 +59,4 @@
 **Figma:** [17 — Архив — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-16221)
 
 ![«17 — Архив» в тёмной теме Aurora](<17 — Архив — Aurora.png>)
+

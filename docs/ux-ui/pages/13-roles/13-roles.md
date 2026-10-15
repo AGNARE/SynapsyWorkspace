@@ -44,11 +44,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Наследование и конфликты прав
-- [ ] Связь роли с экранами интерфейса
-- [ ] Состояние «роль используется участниками»
-
 ---
 
 ## Тёмная тема Aurora
@@ -59,3 +54,4 @@
 **Figma:** [13 — Роли и права — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-15367)
 
 ![«13 — Роли и права» в тёмной теме Aurora](<13 — Роли и права — Aurora.png>)
+

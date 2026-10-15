@@ -43,11 +43,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Состояние «покинул пространство»
-- [ ] Массовые действия над участниками
-- [ ] Связь с экраном ролей
-
 ---
 
 ## Тёмная тема Aurora
@@ -58,3 +53,4 @@
 **Figma:** [12 — Участники — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-15173)
 
 ![«12 — Участники» в тёмной теме Aurora](<12 — Участники — Aurora.png>)
+

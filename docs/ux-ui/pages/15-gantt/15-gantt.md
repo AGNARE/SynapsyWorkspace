@@ -45,11 +45,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Перетаскивание и изменение сроков
-- [ ] Критический путь
-- [ ] Закреплённая легенда
-
 ---
 
 ## Тёмная тема Aurora
@@ -60,3 +55,4 @@
 **Figma:** [15 — Gantt — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-15807)
 
 ![«15 — Gantt» в тёмной теме Aurora](<15 — Gantt — Aurora.png>)
+

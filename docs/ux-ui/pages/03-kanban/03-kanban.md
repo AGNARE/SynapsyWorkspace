@@ -45,11 +45,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Показать перетаскивание и целевую позицию
-- [ ] Добавить пустое состояние колонки
-- [ ] Решить поведение длинных названий
-
 ---
 
 ## Тёмная тема Aurora
@@ -60,3 +55,4 @@
 **Figma:** [03 — Kanban — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-13648)
 
 ![«03 — Kanban» в тёмной теме Aurora](<03 — Kanban — Aurora.png>)
+

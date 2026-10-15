@@ -45,11 +45,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Раскрытие записи истории
-- [ ] Превью вложений
-- [ ] Состояния «нет связей» и «нет файлов»
-
 ---
 
 ## Тёмная тема Aurora
@@ -60,3 +55,4 @@
 **Figma:** [04 — Детали задачи — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-13464)
 
 ![«04 — Детали задачи» в тёмной теме Aurora](<04 — Детали задачи — Aurora.png>)
+

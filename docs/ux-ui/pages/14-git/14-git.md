@@ -48,11 +48,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Состояния ошибок синхронизации
-- [ ] Журнал доставки вебхука
-- [ ] Ручная привязка коммита к задаче
-
 ---
 
 ## Тёмная тема Aurora
@@ -63,3 +58,4 @@
 **Figma:** [14 — Git — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-15623)
 
 ![«14 — Git» в тёмной теме Aurora](<14 — Git — Aurora.png>)
+

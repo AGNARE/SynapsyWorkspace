@@ -45,11 +45,6 @@
 
 Лист состояний целиком — в наборе [`synapse-figma-states/`](../../../synapse-figma-states).
 
-## Дальше
-- [ ] Сравнение версий
-- [ ] Комментарии и предложения правок
-- [ ] Пометка устаревшей статьи
-
 ---
 
 ## Тёмная тема Aurora
@@ -60,3 +55,4 @@
 **Figma:** [06 — Статья — Aurora](https://www.figma.com/design/eBMHOPmJtHXVp1gBuSu2NP/Synapse-Workspace?node-id=185-14135)
 
 ![«06 — Статья» в тёмной теме Aurora](<06 — Статья — Aurora.png>)
+
